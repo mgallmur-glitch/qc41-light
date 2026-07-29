@@ -1,0 +1,9 @@
+__pycache__/
+*.pyc
+.env
+*.key
+*.pem
+reports/
+transcripts/
+qc41-light-report.json
+.DS_Store

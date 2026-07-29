@@ -1,0 +1,20 @@
+[00:00] CONSULTANT: Thanks for making the time. We have 25 minutes. I would like to understand your current intake process, then decide together whether a walkthrough is useful. Does that work?
+[00:14] OWNER: Yes. We run a roofing company in Houston. Most leads call or fill out a website form.
+[00:27] CONSULTANT: What happens after a form comes in?
+[00:31] OWNER: The office manager calls them when she can. If she is busy, it might be later that day or the next morning.
+[00:44] CONSULTANT: How many leads would you say wait more than an hour?
+[00:49] OWNER: I do not know. Maybe half. We do around eighty leads a month.
+[01:00] CONSULTANT: And when someone does not answer the first call?
+[01:04] OWNER: We leave a voicemail. Sometimes we text, but there is no standard process.
+[01:14] CONSULTANT: So the gap is speed and consistent follow-up. Our AI employee can respond immediately, qualify the lead and update your CRM.
+[01:26] OWNER: We do not have a CRM. Everything is in JobNimbus and a spreadsheet.
+[01:35] CONSULTANT: That is fine, we can integrate with almost anything.
+[01:41] OWNER: I have heard that before. The last automation company took six weeks and never finished the integration.
+[01:51] CONSULTANT: We can set this up in fourteen days. The setup is three thousand dollars.
+[02:00] OWNER: I am not paying three grand before I see it work.
+[02:06] CONSULTANT: We have a guarantee and a lot of experience.
+[02:13] OWNER: Can you show me a roofing client using it?
+[02:17] CONSULTANT: I cannot share client systems, but I can send you a proposal.
+[02:25] OWNER: A proposal will not answer that. I need proof it works with JobNimbus.
+[02:32] CONSULTANT: Let me see what I can find and email you.
+[02:37] OWNER: Okay.
