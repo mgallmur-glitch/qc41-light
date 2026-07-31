@@ -100,7 +100,7 @@ For longitudinal analysis, team comparison, complete QC 4.1 diagnostics and prof
 
 ## Status
 
-Prototype `0.2.0`. Local only. Not published and not connected to a public API.
+Release candidate `0.2.0`. The repository is private during review. Not yet published, not connected to a public API, and not guaranteed stable until the first tagged release.
 
 ## License
 

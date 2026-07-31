@@ -89,7 +89,7 @@ Consulta `docs/FEATURE_MATRIX.md` y `docs/IP_BOUNDARY.md`.
 
 ## Estado
 
-Prototipo local `0.2.0`. Todavía no publicado ni conectado a una API pública.
+Candidato de release `0.2.0`. El repositorio es privado durante revisión. Aún no publicado, no conectado a una API pública y sin garantía de estabilidad hasta el primer release etiquetado.
 
 ## Licencia
 

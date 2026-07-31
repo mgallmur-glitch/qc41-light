@@ -46,7 +46,7 @@ If a transcript is unavailable, request it. Never invent one.
 python3 scripts/validate_report.py PATH_TO_REPORT.json
 ```
 
-11. If the user wants a human-readable version:
+14. If the user wants a human-readable version:
 
 ```bash
 python3 scripts/render_report.py PATH_TO_REPORT.json

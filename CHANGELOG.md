@@ -1,5 +1,14 @@
 # Changelog
 
+## 0.2.0-rc1 — 2026-07-31
+
+- Converted all tests to discoverable `unittest.TestCase` classes.
+- Added GitHub Actions CI matrix (Python 3.10, 3.11, 3.12) with fixture validation.
+- Added deterministic IP-boundary auditor (`scripts/audit_ip_boundary.py`).
+- Added CONTRIBUTING.md and SECURITY.md.
+- Fixed SKILL.md procedure numbering.
+- Updated status from prototype/local-only to release candidate.
+
 ## 0.2.0 — 2026-07-29
 
 - Expanded Light from a thin finding set into a robust single-call diagnostic.

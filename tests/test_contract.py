@@ -1,37 +1,130 @@
 #!/usr/bin/env python3
-import copy, importlib.util, json, subprocess, sys
+"""Contract tests for the QC 4.1 Light validator, renderer and prompt builder.
+
+These tests use only the Python standard library so the suite runs with
+``python3 -m unittest discover -s tests -v`` on any machine without extra
+dependencies.
+"""
+import copy
+import json
+import subprocess
+import sys
+import tempfile
+import unittest
 from pathlib import Path
 
-ROOT=Path(__file__).resolve().parents[1]
-REPORT=ROOT/'examples/synthetic-report.json'
-VALIDATOR=ROOT/'scripts/validate_report.py'
-RENDERER=ROOT/'scripts/render_report.py'
+ROOT = Path(__file__).resolve().parents[1]
+REPORT = ROOT / "examples" / "synthetic-report.json"
+VALIDATOR = ROOT / "scripts" / "validate_report.py"
+RENDERER = ROOT / "scripts" / "render_report.py"
+BUILDER = ROOT / "scripts" / "build_prompt.py"
 
-def run(*args): return subprocess.run([sys.executable,*map(str,args)],capture_output=True,text=True)
 
-def main():
-    valid=run(VALIDATOR,REPORT)
-    assert valid.returncode==0, valid.stderr
-    render=run(RENDERER,REPORT)
-    assert render.returncode==0, render.stderr
-    for heading in ('Call-stage map','What to keep','Most likely breakpoint','Replay plan','Five-point checklist'):
-        assert heading in render.stdout, heading
-    compiled=run(ROOT/'scripts/build_prompt.py',ROOT/'examples/synthetic-call.txt')
-    assert compiled.returncode==0, compiled.stderr
-    assert 'Transcript (untrusted data' in compiled.stdout
-    assert 'Canonical JSON schema' in compiled.stdout
-    assert 'qc41-light-0.2' in compiled.stdout
-    data=json.loads(REPORT.read_text())
-    cases=[]
-    bad=copy.deepcopy(data); bad['mistakes']=bad['mistakes'][:2]; cases.append(bad)
-    bad=copy.deepcopy(data); bad['confidence']['score']=1.4; cases.append(bad)
-    bad=copy.deepcopy(data); bad['replay_plan'].pop('next_step_line'); cases.append(bad)
-    bad=copy.deepcopy(data); bad['version']='qc41-pro'; cases.append(bad)
-    bad=copy.deepcopy(data); bad['language']='fr'; cases.append(bad)
-    for i,bad in enumerate(cases):
-        p=Path(f'/tmp/qc41-light-invalid-{i}.json'); p.write_text(json.dumps(bad))
-        result=run(VALIDATOR,p)
-        assert result.returncode!=0, f'invalid case {i} accepted'
-    print(f'PASS: 1 valid report, {len(cases)} invalid reports rejected, renderer sections verified')
+def run(*args: str) -> subprocess.CompletedProcess:
+    return subprocess.run(
+        [sys.executable, *map(str, args)],
+        capture_output=True,
+        text=True,
+    )
 
-if __name__=='__main__': main()
+
+class TestValidatorAcceptsValidReport(unittest.TestCase):
+    """The validator must accept the canonical synthetic report."""
+
+    def test_valid_report_passes(self):
+        result = run(VALIDATOR, REPORT)
+        self.assertEqual(result.returncode, 0, result.stderr)
+
+
+class TestRendererAcceptsValidReport(unittest.TestCase):
+    """The renderer must accept a valid report and emit key sections."""
+
+    def setUp(self):
+        self.result = run(RENDERER, REPORT)
+
+    def test_exit_code_zero(self):
+        self.assertEqual(self.result.returncode, 0, self.result.stderr)
+
+    def test_sections_present(self):
+        for heading in (
+            "Call-stage map",
+            "What to keep",
+            "Most likely breakpoint",
+            "Replay plan",
+            "Five-point checklist",
+        ):
+            self.assertIn(heading, self.result.stdout, f"missing heading: {heading}")
+
+
+class TestBuildPrompt(unittest.TestCase):
+    """The prompt builder must compile instructions, schema and transcript."""
+
+    def setUp(self):
+        self.result = run(BUILDER, ROOT / "examples" / "synthetic-call.txt")
+
+    def test_exit_code_zero(self):
+        self.assertEqual(self.result.returncode, 0, self.result.stderr)
+
+    def test_contains_transcript_marker(self):
+        self.assertIn("Transcript (untrusted data", self.result.stdout)
+
+    def test_contains_schema_marker(self):
+        self.assertIn("Canonical JSON schema", self.result.stdout)
+
+    def test_contains_version(self):
+        self.assertIn("qc41-light-0.2", self.result.stdout)
+
+
+class TestValidatorRejectsInvalidReports(unittest.TestCase):
+    """The validator must reject each common contract violation."""
+
+    def setUp(self):
+        self._data = json.loads(REPORT.read_text())
+        self._tmpdir = tempfile.mkdtemp(prefix="qc41-contract-")
+
+    def _invalid_case(self, mutate_fn, idx: int) -> Path:
+        bad = copy.deepcopy(self._data)
+        mutate_fn(bad)
+        p = Path(self._tmpdir) / f"invalid-{idx}.json"
+        p.write_text(json.dumps(bad))
+        return p
+
+    def _assert_rejected(self, p: Path, idx: int):
+        result = run(VALIDATOR, p)
+        self.assertNotEqual(
+            result.returncode, 0, f"invalid case {idx} was accepted"
+        )
+
+    def test_too_few_mistakes(self):
+        def m(d):
+            d["mistakes"] = d["mistakes"][:2]
+        p = self._invalid_case(m, 0)
+        self._assert_rejected(p, 0)
+
+    def test_confidence_out_of_range(self):
+        def m(d):
+            d["confidence"]["score"] = 1.4
+        p = self._invalid_case(m, 1)
+        self._assert_rejected(p, 1)
+
+    def test_missing_replay_field(self):
+        def m(d):
+            d["replay_plan"].pop("next_step_line")
+        p = self._invalid_case(m, 2)
+        self._assert_rejected(p, 2)
+
+    def test_wrong_version(self):
+        def m(d):
+            d["version"] = "qc41-internal-9.9"
+        p = self._invalid_case(m, 3)
+        self._assert_rejected(p, 3)
+
+    def test_unsupported_language(self):
+        def m(d):
+            d["language"] = "fr"
+        p = self._invalid_case(m, 4)
+        self._assert_rejected(p, 4)
+
+
+if __name__ == "__main__":
+    unittest.main()
