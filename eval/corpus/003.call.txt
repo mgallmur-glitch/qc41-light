@@ -1,0 +1,9 @@
+[00:00] SELLER: Agenda is simple: fit, rollout, commercials.
+[00:15] PROSPECT: Sounds good. Budget is tight this quarter.
+[00:28] SELLER: Understood. Most teams ROI in thirty days.
+[00:42] PROSPECT: Last vendor promised the same and failed adoption.
+[00:55] SELLER: We are different. Our onboarding is white-glove.
+[01:10] PROSPECT: I still need to think about it.
+[01:18] SELLER: Thinking usually means price — I can do 15% off today.
+[01:32] PROSPECT: Email me. I am not deciding today.
+[01:40] SELLER: Done.

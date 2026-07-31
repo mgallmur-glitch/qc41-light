@@ -1,0 +1,15 @@
+__pycache__/
+*.pyc
+.env
+*.key
+*.pem
+reports/
+transcripts/
+qc41-light-report.json
+.DS_Store
+node_modules/
+npm-debug.log*
+.pnpm-debug.log*
+coverage/
+playground/
+.eval-cache/

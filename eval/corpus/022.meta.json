@@ -1,0 +1,17 @@
+{
+  "id": "022",
+  "language": "es",
+  "failure_mode": "missed_implementation_risk",
+  "expected_breakpoint_stage": "objection",
+  "expected_outcome": "no_decision",
+  "expected_mistake_categories": [
+    "objection_not_clarified",
+    "unsupported_claim",
+    "vague_next_step"
+  ],
+  "gold_recovery_must_include_concepts": [
+    "aclarar",
+    "siguiente paso",
+    "adopción"
+  ]
+}

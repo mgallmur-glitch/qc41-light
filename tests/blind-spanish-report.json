@@ -1,0 +1,232 @@
+{
+  "version": "qc41-light-0.2",
+  "language": "es",
+  "transcript_quality": {
+    "completeness": "complete",
+    "speaker_labels": true,
+    "timestamps": true,
+    "notes": [
+      "La transcripción incluye apertura, descubrimiento, solución, objeción, precio y cierre en 16 turnos.",
+      "Los hablantes están etiquetados como ASESORA y PROSPECTO, con marcas de tiempo cada 4-15 segundos.",
+      "El final es natural (acuerdo de enviar propuesta), por lo que la confianza sobre el resultado es razonablemente alta."
+    ]
+  },
+  "call_summary": "Llamada de diagnóstico en la que la asesora explora cómo un equipo de tres closers gestiona 40 llamadas semanales con registro inconsistente. El prospecto reconoce pérdida de oportunidades sin dato. Tras una propuesta de piloto de 750 USD, surgen dos objeciones reales: adopción interna (vigilancia/CRM previo) y autoridad compartida (jefe de ventas debe adoptar). La asesora cierra enviando propuesta para revisión, sin confirmar un criterio de decisión ni próximos pasos con el decisor real.",
+  "call_outcome": {
+    "status": "follow_up",
+    "evidence": {
+      "quote": "Perfecto, entonces te envío la propuesta para que la revisen.",
+      "speaker": "ASESORA",
+      "timestamp": "02:16"
+    }
+  },
+  "stage_analysis": [
+    {
+      "stage": "opening",
+      "status": "strong",
+      "evidence": [
+        {"quote": "Para que esto sea útil, me gustaría entender cómo están gestionando las llamadas y después, si tiene sentido, te muestro cómo funciona. ¿Te parece?", "speaker": "ASESORA", "timestamp": "00:00"}
+      ],
+      "finding": "Apertura con enmarcado explícito (entender antes de mostrar) y petición de permiso, lo que reduce fricción y fija expectativa de diagnóstico."
+    },
+    {
+      "stage": "agenda",
+      "status": "partial",
+      "evidence": [
+        {"quote": "me gustaría entender cómo están gestionando las llamadas y después, si tiene sentido, te muestro cómo funciona. ¿Te parece?", "speaker": "ASESORA", "timestamp": "00:00"}
+      ],
+      "finding": "Existe una agenda implícita de dos pasos (entender → mostrar), pero no se confirma el tiempo disponible ni se enumeran las etapas; el enmarcado se mezcla con la apertura."
+    },
+    {
+      "stage": "discovery",
+      "status": "partial",
+      "evidence": [
+        {"quote": "Tenemos tres closers y unas cuarenta llamadas por semana, pero cada uno registra las notas de forma diferente.", "speaker": "PROSPECTO", "timestamp": "00:15"},
+        {"quote": "En teoría hacemos seguimiento, pero casi siempre depende de que el closer se acuerde.", "speaker": "PROSPECTO", "timestamp": "00:36"}
+      ],
+      "finding": "El descubrimiento obtiene volumen operativo y un proceso manual, pero queda en superficie: no se profundiza en cuántas llamadas no cierran ni en el ciclo de seguimiento real."
+    },
+    {
+      "stage": "problem",
+      "status": "partial",
+      "evidence": [
+        {"quote": "Siento que se pierden oportunidades, pero no tenemos el dato. Ese es parte del problema.", "speaker": "PROSPECTO", "timestamp": "00:54"}
+      ],
+      "finding": "El prospecto nombra un problema (oportunidades perdidas sin dato), pero no se cuantifica ni se ancla a un dolor operativo concreto medible."
+    },
+    {
+      "stage": "impact",
+      "status": "weak",
+      "evidence": [
+        {"quote": "¿Y qué efecto tiene eso en el negocio?", "speaker": "ASESORA", "timestamp": "00:50"},
+        {"quote": "No sé exactamente. Siento que se pierden oportunidades, pero no tenemos el dato.", "speaker": "PROSPECTO", "timestamp": "00:54"}
+      ],
+      "finding": "La pregunta de impacto se hace, pero la respuesta es vaga y la asesora no profundiza ni monetiza el costo de esas oportunidades perdidas."
+    },
+    {
+      "stage": "solution",
+      "status": "weak",
+      "evidence": [
+        {"quote": "Nuestro sistema analiza todas las llamadas, encuentra patrones y genera coaching para cada closer.", "speaker": "ASESORA", "timestamp": "01:05"}
+      ],
+      "finding": "La solución se describe en una sola línea genérica, sin conectarla al problema de registro inconsistente ni al seguimiento olvidado identificados antes."
+    },
+    {
+      "stage": "proof",
+      "status": "not_observed",
+      "evidence": [],
+      "finding": "No se presenta prueba, caso, métrica o referencia que respalde el valor del sistema antes del precio."
+    },
+    {
+      "stage": "price",
+      "status": "partial",
+      "evidence": [
+        {"quote": "Podemos hacer una capacitación. El piloto cuesta 750 dólares por dos semanas.", "speaker": "ASESORA", "timestamp": "01:45"}
+      ],
+      "finding": "El precio aparece como piloto de 750 USD por dos semanas, pero se introduce abruptamente tras la objeción de vigilancia, sin anclarlo al valor ni al problema cuantificado."
+    },
+    {
+      "stage": "objection",
+      "status": "strong",
+      "evidence": [
+        {"quote": "me preocupa que los closers sientan que los estamos vigilando.", "speaker": "PROSPECTO", "timestamp": "01:15"},
+        {"quote": "tuvimos un problema parecido con el CRM. Dejaron de llenarlo porque sentían que era más control.", "speaker": "PROSPECTO", "timestamp": "01:34"}
+      ],
+      "finding": "Aparecen objeciones claras de adopción/confianza con evidencia histórica directa (fracaso previo con CRM), el momento más informativo de la llamada."
+    },
+    {
+      "stage": "decision",
+      "status": "weak",
+      "evidence": [
+        {"quote": "Yo apruebo el presupuesto, pero si el jefe de ventas no lo adopta, no sirve.", "speaker": "PROSPECTO", "timestamp": "02:08"}
+      ],
+      "finding": "Se revela que la autoridad es compartida, pero la asesora no establece un criterio de decisión ni pide involucrar al jefe de ventas en una próxima conversación."
+    },
+    {
+      "stage": "next_step",
+      "status": "weak",
+      "evidence": [
+        {"quote": "Perfecto, entonces te envío la propuesta para que la revisen.", "speaker": "ASESORA", "timestamp": "02:16"}
+      ],
+      "finding": "El siguiente paso es vago: 'enviar la propuesta para que la revisen' sin fecha, sin responsable y sin acuerdo sobre qué debe pasar para avanzar."
+    }
+  ],
+  "strengths": [
+    {
+      "finding": "La asesora abre con un enmarcado explícito que pide permiso antes de avanzar, reduciendo resistencia inicial.",
+      "evidence": {"quote": "Para que esto sea útil, me gustaría entender cómo están gestionando las llamadas y después, si tiene sentido, te muestro cómo funciona. ¿Te parece?", "speaker": "ASESORA", "timestamp": "00:00"},
+      "why_keep": "El patrón de 'entender antes de mostrar' con cierre de permiso genera colaboración y debe mantenerse porque el prospecto aceptó de inmediato la dinámica."
+    },
+    {
+      "finding": "La asesora hace una pregunta directa de impacto de negocio tras identificar el proceso manual, lo que intenta elevar la conversación de síntoma a costo.",
+      "evidence": {"quote": "¿Y qué efecto tiene eso en el negocio?", "speaker": "ASESORA", "timestamp": "00:50"},
+      "why_keep": "Preguntar por el efecto de negocio es el instinto correcto para conectar problema con valor; conviene conservarlo y profundizarlo en lugar de abandonarlo."
+    }
+  ],
+  "breakpoint": {
+    "stage": "objection",
+    "evidence": {"quote": "tuvimos un problema parecido con el CRM. Dejaron de llenarlo porque sentían que era más control.", "speaker": "PROSPECTO", "timestamp": "01:34"},
+    "why_it_mattered": "Esta objeción con historia previa es el punto donde se revela el riesgo real de adopción: si los closers no adoptan, el piloto fracasa. Es el momento donde la asesora debió pausar el precio y trabajar el plan de adopción con el jefe de ventas, pero en cambio saltó a ofrecer capacitación y precio, perdiendo la palanca de decisión."
+  },
+  "objections": [
+    {
+      "label": "trust",
+      "evidence": {"quote": "me preocupa que los closers sientan que los estamos vigilando.", "speaker": "PROSPECTO", "timestamp": "01:15"},
+      "interpretation": "El prospecto anticipa resistencia interna por percepción de vigilancia, una objeción de confianza/adopción que apunta a cómo se sentirá el equipo, no al producto en sí.",
+      "confidence": 0.85
+    },
+    {
+      "label": "implementation",
+      "evidence": {"quote": "tuvimos un problema parecido con el CRM. Dejaron de llenarlo porque sentían que era más control.", "speaker": "PROSPECTO", "timestamp": "01:34"},
+      "interpretation": "Evidencia histórica de un despliegue fallido (CRM abandonado por control) indica riesgo de implementación y adopción, no de precio ni de funcionalidad.",
+      "confidence": 0.8
+    },
+    {
+      "label": "authority",
+      "evidence": {"quote": "Yo apruebo el presupuesto, pero si el jefe de ventas no lo adopta, no sirve.", "speaker": "PROSPECTO", "timestamp": "02:08"},
+      "interpretation": "El prospecto aprueba el dinero pero no garantiza la adopción: la autoridad de uso reside en el jefe de ventas, un decisor que no está en la llamada.",
+      "confidence": 0.9
+    }
+  ],
+  "mistakes": [
+    {
+      "id": "M1",
+      "category": "objection_not_clarified",
+      "finding": "La objeción de vigilancia y el antecedente del CRM se responden en una sola línea sin explorar la causa del fracaso previo ni las condiciones de adopción.",
+      "evidence": {"quote": "No deberían sentirlo así porque es para ayudarlos a mejorar. Además, el dashboard es privado.", "speaker": "ASESORA", "timestamp": "01:23"},
+      "consequence": "Invalidar el sentimiento ('no deberían sentirlo así') y pasar de largo el caso CRM deja sin resolver la preocupación real de adopción, que luego reaparece como objeción de autoridad."
+    },
+    {
+      "id": "M2",
+      "category": "premature_pitch",
+      "finding": "Tras una respuesta de impacto vaga, la asesora pasa directo a describir el sistema sin haber cuantificado el costo del problema ni validado el dolor.",
+      "evidence": {"quote": "Nuestro sistema analiza todas las llamadas, encuentra patrones y genera coaching para cada closer.", "speaker": "ASESORA", "timestamp": "01:05"},
+      "consequence": "La solución se presenta antes de tener un problema dimensionado, por lo que el prospecto no tiene marco de valor cuando escucha el precio 40 segundos después."
+    },
+    {
+      "id": "M3",
+      "category": "vague_next_step",
+      "finding": "El cierre acuerda 'enviar la propuesta para que la revisen' sin fecha, sin involucrar al jefe de ventas y sin definir qué decisión se debe tomar.",
+      "evidence": {"quote": "Perfecto, entonces te envío la propuesta para que la revisen.", "speaker": "ASESORA", "timestamp": "02:16"},
+      "consequence": "Un siguiente paso sin criterio ni decisor real tiende a diluirse; el prospecto quedó como buzón de reenvío en lugar de tener un compromiso de revisión con su jefe de ventas."
+    }
+  ],
+  "corrections": [
+    {
+      "mistake_id": "M1",
+      "action": "Ante la objeción de vigilancia, validar primero la preocupación y pedir que cuente cómo falló la implementación del CRM antes de ofrecer una solución.",
+      "why": "Explorar el caso previo convierte una objeción emocional en información accionable de adopción y muestra que se respeta la experiencia del prospecto.",
+      "example_line": "Tiene sentido esa preocupación. Antes de proponer algo, ¿me cuentas qué pasó exactamente con el CRM: fue el formato, la frecuencia o cómo se presentó al equipo?"
+    },
+    {
+      "mistake_id": "M2",
+      "action": "Antes de presentar el sistema, cuantificar el impacto: cuántas de las 40 llamadas no cierran y qué valor aproximado tiene cada una, para anclar la solución al costo del problema.",
+      "why": "Un problema dimensionado convierte el precio de 750 USD en inversión contra una pérdida visible, en lugar de salir como dato aislado.",
+      "example_line": "De esas 40 llamadas por semana, ¿cuántas terminan en no? Si pudiéramos recuperar solo un par, ¿qué significaría eso para el equipo?"
+    },
+    {
+      "mistake_id": "M3",
+      "action": "Reemplazar 'enviar propuesta' por un siguiente paso con fecha y con el decisor real presente o comprometido, definiendo qué criterio se evaluará.",
+      "why": "Involucrar al jefe de ventas y fijar un momento concreto eleva la probabilidad de decisión real y evita que el piloto quede atrapado en revisión indefinida.",
+      "example_line": "En vez de enviar la propuesta sola, ¿qué tal si agendamos 30 minutos la próxima semana contigo y tu jefe de ventas para revisar juntos el piloto y definir si encaja?"
+    }
+  ],
+  "recovery_line": {
+    "text": "Antes de enviar nada, ¿qué tendría que pasar internamente para que tu jefe de ventas y tus closers adopten esto y no termine como el CRM? Si lo vemos juntos, puedo preparar el piloto para ese momento.",
+    "why": "Reabre el diagnóstico sobre el riesgo real (adopción), nombra al decisor ausente y convierte la propuesta en algo condicionado a un criterio concreto en lugar de un envío genérico."
+  },
+  "replay_plan": {
+    "opening_question": "Para que esto sea útil, me gustaría entender cómo gestionan las llamadas hoy y qué les gustaría cambiar; ¿tienes 20 minutos para ver si tiene sentido?",
+    "diagnostic_follow_up": "De esas 40 llamadas semanales, ¿cuántas no cierran y cuál crees que es el costo aproximado de cada una que se pierde?",
+    "objection_clarifier": "Cuando mencionas que los closers podrían sentir vigilancia, ¿qué fue lo que pasó con el CRM que no queremos repetir esta vez?",
+    "next_step_line": "Si te parece, agendamos 30 minutos la próxima semana contigo y tu jefe de ventas para revisar el piloto y definir si encaja antes de comprometer nada."
+  },
+  "next_call_focus": [
+    "Dimensionar el problema antes de mostrar la solución: cerrar al menos una métrica de oportunidades perdidas.",
+    "Trabajar la objeción de adopción con plan de implementación, no con afirmaciones.",
+    "Involucrar al jefe de ventas en el siguiente paso con fecha y criterio de decisión."
+  ],
+  "next_call_checklist": [
+    "Confirmar tiempo y agenda explícita de la llamada antes de iniciar.",
+    "Obtener al menos una métrica de impacto (llamadas no cerradas o valor por oportunidad).",
+    "Ante objeción de vigilancia, validar y explorar el antecedente antes de responder.",
+    "Anclar el precio del piloto al costo del problema cuantificado.",
+    "Cerrar con un siguiente paso que incluya al decisor real y una fecha."
+  ],
+  "confidence": {
+    "score": 0.78,
+    "reason": "Transcripción completa con etiquetas de hablante y marcas de tiempo, y un final natural que permite inferir el resultado; la confianza se reduce porque no se explicita el contexto de la oferta previa ni si el prospecto llegó por inbound o cualificación propia.",
+    "missing_context": [
+      "Origen de la llamada (inbound, outbound, referido)",
+      "Contexto previo de la oferta y de la relación con el prospecto",
+      "Confirmación posterior de si la propuesta fue revisada con el jefe de ventas",
+      "Sector y tamaño del negocio para estimar el valor real de una oportunidad perdida"
+    ]
+  },
+  "limitations": [
+    "El análisis se basa únicamente en el texto transcripto; no se accedió a la grabación ni al tono.",
+    "No se infieren motivos, personalidad ni capacidad de pago del prospecto.",
+    "El resultado se interpreta como follow_up por el acuerdo de enviar propuesta, pero la decisión final depende de actores externos no presentes.",
+    "Las correcciones son líneas de referencia y deben adaptarse al estilo del vendedor y al contexto del cliente."
+  ]
+}

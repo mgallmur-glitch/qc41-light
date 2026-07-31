@@ -1,0 +1,25 @@
+{
+  "id": "001",
+  "expected_breakpoint_stage": "discovery",
+  "accepted_breakpoint_stages": [],
+  "expected_outcome": "follow_up",
+  "accepted_outcomes": [
+    "follow_up",
+    "no_decision"
+  ],
+  "expected_mistake_categories": [
+    "premature_pitch",
+    "shallow_discovery",
+    "vague_next_step"
+  ],
+  "gold_recovery_must_include_concepts": [
+    "clarify",
+    "next step",
+    "adoption"
+  ],
+  "failure_mode": "premature_pitch",
+  "require_evidence_in_transcript": true,
+  "min_mistakes": 3,
+  "min_corrections": 3,
+  "require_recovery_line": true
+}

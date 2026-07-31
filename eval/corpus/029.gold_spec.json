@@ -1,0 +1,25 @@
+{
+  "id": "029",
+  "expected_breakpoint_stage": "objection",
+  "accepted_breakpoint_stages": [],
+  "expected_outcome": "follow_up",
+  "accepted_outcomes": [
+    "follow_up",
+    "no_decision"
+  ],
+  "expected_mistake_categories": [
+    "objection_not_clarified",
+    "pressure",
+    "vague_next_step"
+  ],
+  "gold_recovery_must_include_concepts": [
+    "clarify",
+    "next step",
+    "adoption"
+  ],
+  "failure_mode": "objection_not_clarified",
+  "require_evidence_in_transcript": true,
+  "min_mistakes": 3,
+  "min_corrections": 3,
+  "require_recovery_line": true
+}

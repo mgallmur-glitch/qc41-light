@@ -1,0 +1,25 @@
+{
+  "id": "034",
+  "expected_breakpoint_stage": "price",
+  "accepted_breakpoint_stages": [],
+  "expected_outcome": "follow_up",
+  "accepted_outcomes": [
+    "follow_up",
+    "no_decision"
+  ],
+  "expected_mistake_categories": [
+    "premature_pitch",
+    "shallow_discovery",
+    "objection_not_clarified"
+  ],
+  "gold_recovery_must_include_concepts": [
+    "aclarar",
+    "siguiente paso",
+    "adopción"
+  ],
+  "failure_mode": "price_before_value",
+  "require_evidence_in_transcript": true,
+  "min_mistakes": 3,
+  "min_corrections": 3,
+  "require_recovery_line": true
+}

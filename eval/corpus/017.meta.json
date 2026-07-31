@@ -1,0 +1,17 @@
+{
+  "id": "017",
+  "language": "en",
+  "failure_mode": "vague_next_step",
+  "expected_breakpoint_stage": "next_step",
+  "expected_outcome": "follow_up",
+  "expected_mistake_categories": [
+    "vague_next_step",
+    "weak_agenda",
+    "missed_follow_up"
+  ],
+  "gold_recovery_must_include_concepts": [
+    "clarify",
+    "next step",
+    "adoption"
+  ]
+}

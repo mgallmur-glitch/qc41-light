@@ -1,0 +1,6 @@
+[00:00] SELLER: Excited to show the enterprise suite for AcmeCRM-39.
+[00:10] PROSPECT: We are two founders. We need a lightweight CRM sync only.
+[00:22] SELLER: Enterprise still works. Minimum is twenty-four thousand a year.
+[00:34] PROSPECT: That is not a fit for us.
+[00:40] SELLER: Most startups grow into it. Sign a pilot today.
+[00:50] PROSPECT: No. Please remove us from the pipeline.

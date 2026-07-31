@@ -1,0 +1,17 @@
+{
+  "id": "008",
+  "language": "es",
+  "failure_mode": "price_before_value",
+  "expected_breakpoint_stage": "price",
+  "expected_outcome": "follow_up",
+  "expected_mistake_categories": [
+    "premature_pitch",
+    "shallow_discovery",
+    "objection_not_clarified"
+  ],
+  "gold_recovery_must_include_concepts": [
+    "aclarar",
+    "siguiente paso",
+    "adopción"
+  ]
+}

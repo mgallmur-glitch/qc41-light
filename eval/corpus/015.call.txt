@@ -1,0 +1,9 @@
+[00:00] SELLER: Quick call — what is broken in your pipeline today?
+[00:12] PROSPECT: Follow-up is inconsistent after demos.
+[00:22] SELLER: Got it. Our sequences fix that. Want a two-minute tour?
+[00:35] PROSPECT: Maybe. Who owns follow-up on your side usually?
+[00:48] SELLER: Does not matter — the product handles it. Look at this dashboard.
+[01:05] PROSPECT: We have compliance constraints in AcmeCRM-15.
+[01:18] SELLER: Everyone says that. Clients love us. Shall I send pricing?
+[01:30] PROSPECT: Not yet. I will talk to ops.
+[01:38] SELLER: Cool, ping me anytime.

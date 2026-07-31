@@ -1,0 +1,17 @@
+{
+  "id": "027",
+  "language": "en",
+  "failure_mode": "premature_pitch",
+  "expected_breakpoint_stage": "discovery",
+  "expected_outcome": "follow_up",
+  "expected_mistake_categories": [
+    "premature_pitch",
+    "shallow_discovery",
+    "vague_next_step"
+  ],
+  "gold_recovery_must_include_concepts": [
+    "clarify",
+    "next step",
+    "adoption"
+  ]
+}

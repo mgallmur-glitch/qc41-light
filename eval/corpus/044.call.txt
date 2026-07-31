@@ -1,0 +1,8 @@
+[00:00] ASESOR: El plan empieza en 500 al mes. ¿Puedes aprobar esta semana?
+[00:14] PROSPECTO: Recién empezamos a evaluar. No vi el flujo.
+[00:28] ASESOR: Quedan pocos cupos de onboarding este mes.
+[00:40] PROSPECTO: Se siente apurado.
+[00:48] ASESOR: Si esperas, la implementación se va a Q4.
+[01:05] PROSPECTO: Necesito a mi socio en la llamada.
+[01:14] ASESOR: Tráelo mañana o se acaba el descuento.
+[01:25] PROSPECTO: Por ahora paso.

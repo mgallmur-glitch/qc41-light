@@ -1,0 +1,12 @@
+{
+  "name": "qc41-light",
+  "version": "0.2.0",
+  "description": "Evidence-first sales-call diagnosis: breakpoint, objections, three mistakes, recovery line — every finding tied to an exact quote.",
+  "author": {
+    "name": "Mauricio Gallmur"
+  },
+  "homepage": "https://github.com/mgallmur-glitch/qc41-light",
+  "repository": "https://github.com/mgallmur-glitch/qc41-light",
+  "license": "Apache-2.0",
+  "keywords": ["sales", "call-analysis", "coaching", "transcript", "qc41"]
+}

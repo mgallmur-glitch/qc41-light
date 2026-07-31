@@ -1,0 +1,17 @@
+{
+  "id": "020",
+  "language": "es",
+  "failure_mode": "weak_agenda",
+  "expected_breakpoint_stage": "opening",
+  "expected_outcome": "follow_up",
+  "expected_mistake_categories": [
+    "weak_agenda",
+    "premature_pitch",
+    "vague_next_step"
+  ],
+  "gold_recovery_must_include_concepts": [
+    "aclarar",
+    "siguiente paso",
+    "adopción"
+  ]
+}

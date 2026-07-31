@@ -1,0 +1,7 @@
+[00:00] SELLER: Thanks for the intro from Alex.
+[00:08] PROSPECT: We are comparing three vendors this month.
+[00:16] SELLER: Great. Here is why we win on speed with AcmeCRM-37.
+[00:28] PROSPECT: Useful. Can you send security docs and book a technical review?
+[00:38] SELLER: Yes I can send docs.
+[00:44] PROSPECT: And the technical review?
+[00:48] SELLER: Someone will reach out if needed. Bye!

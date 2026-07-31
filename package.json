@@ -1,0 +1,63 @@
+{
+  "name": "qc41-light",
+  "version": "0.3.0",
+  "description": "QC 4.1 Light — evidence-first sales-call diagnosis. CLI, MCP, and eval harness.",
+  "type": "module",
+  "bin": {
+    "qc41-light": "./bin/qc41-light.js"
+  },
+  "main": "./src/index.js",
+  "exports": {
+    ".": "./src/index.js",
+    "./mcp": "./src/mcp-server.js"
+  },
+  "scripts": {
+    "start": "node bin/qc41-light.js demo",
+    "demo": "node bin/qc41-light.js demo",
+    "mcp": "node bin/qc41-light.js mcp"
+  },
+  "files": [
+    "eval",
+    "bin",
+    "src",
+    "prompts",
+    "schemas",
+    "examples",
+    "scripts",
+    "adapters",
+    "docs",
+    "SKILL.md",
+    "AGENTS.md",
+    "AGENT.md",
+    "SOUL.md",
+    "NOTICE",
+    "LICENSE",
+    "README.md",
+    "README.es.md"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
+  "keywords": [
+    "sales",
+    "call-analysis",
+    "coaching",
+    "mcp",
+    "qc41",
+    "transcript"
+  ],
+  "author": "Mauricio Gallmur",
+  "license": "Apache-2.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mgallmur-glitch/qc41-light.git"
+  },
+  "homepage": "https://github.com/mgallmur-glitch/qc41-light#readme",
+  "bugs": {
+    "url": "https://github.com/mgallmur-glitch/qc41-light/issues"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.12.1",
+    "zod": "^3.24.2"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "id": "036",
+  "language": "es",
+  "failure_mode": "overtalking",
+  "expected_breakpoint_stage": "discovery",
+  "expected_outcome": "follow_up",
+  "expected_mistake_categories": [
+    "overtalking",
+    "shallow_discovery",
+    "weak_transition"
+  ],
+  "gold_recovery_must_include_concepts": [
+    "aclarar",
+    "siguiente paso",
+    "adopción"
+  ]
+}

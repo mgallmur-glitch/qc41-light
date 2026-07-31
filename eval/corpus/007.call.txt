@@ -1,0 +1,9 @@
+[00:00] SELLER: Hey! How is your day?
+[00:08] PROSPECT: Fine. I have 20 minutes.
+[00:15] SELLER: Cool cool. Sooo… yeah we built this thing for sales teams.
+[00:30] PROSPECT: What problem does it solve first?
+[00:38] SELLER: A lot of things honestly. Coaching, CRM, WhatsApp, whatever.
+[00:55] PROSPECT: I need one primary use case.
+[01:05] SELLER: Let me just click around.
+[01:18] PROSPECT: Maybe reschedule when there is an agenda.
+[01:28] SELLER: Okay.

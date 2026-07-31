@@ -1,0 +1,17 @@
+{
+  "id": "019",
+  "language": "en",
+  "failure_mode": "unsupported_claim",
+  "expected_breakpoint_stage": "solution",
+  "expected_outcome": "no_decision",
+  "expected_mistake_categories": [
+    "unsupported_claim",
+    "shallow_discovery",
+    "weak_transition"
+  ],
+  "gold_recovery_must_include_concepts": [
+    "clarify",
+    "next step",
+    "adoption"
+  ]
+}

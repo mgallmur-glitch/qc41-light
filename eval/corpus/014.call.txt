@@ -1,0 +1,9 @@
+[00:00] ASESOR: Gracias por estar. Te comparto pantalla y el roadmap.
+[00:18] PROSPECTO: Quería saber si funciona con CRM-14.
+[00:30] ASESOR: Claro, y además tenemos IA, secuencias, analítica y coaching.
+[00:55] PROSPECTO: El año pasado un tool quedó abandonado por el equipo.
+[01:10] ASESOR: Este es distinto: la IA es mucho mejor. Setup 2000 y 600 al mes.
+[01:28] PROSPECTO: Es más de lo que esperaba. Lo tengo que pensar.
+[01:36] ASESOR: Si firmas esta semana te bajo el setup un 20%.
+[01:48] PROSPECTO: Mándame un deck y lo reviso.
+[01:55] ASESOR: Perfecto, te lo mando.

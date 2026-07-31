@@ -1,0 +1,6 @@
+[00:00] ASESORA: ¿Qué se rompe en tu onboarding hoy?
+[00:10] PROSPECTO: Los nuevos tardan ocho semanas y fallan en descubrimiento.
+[00:22] ASESORA: Hablando de eso, mira esta calculadora de precios.
+[00:34] PROSPECTO: Seguíamos en el problema de rampa.
+[00:40] ASESORA: Sí, y la calculadora muestra el ROI cuando rampan más rápido.
+[00:52] PROSPECTO: Saltaste confirmar el problema. Escríbeme luego.

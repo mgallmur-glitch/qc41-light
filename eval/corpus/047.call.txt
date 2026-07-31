@@ -1,0 +1,8 @@
+[00:00] SELLER: Before we dig in, packages are 497, 997, and 2497.
+[00:16] PROSPECT: I do not know what I am buying yet.
+[00:25] SELLER: Fair. Mid tier is most popular.
+[00:36] PROSPECT: What changes in my weekly coaching meeting?
+[00:48] SELLER: Everything. AI. Automation. Scale.
+[01:00] PROSPECT: That is vague. Also we are on AcmeCRM-47.
+[01:12] SELLER: Integration is easy. Want a discount on annual?
+[01:24] PROSPECT: Send info. No decision today.

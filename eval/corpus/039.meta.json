@@ -1,0 +1,17 @@
+{
+  "id": "039",
+  "language": "en",
+  "failure_mode": "poor_fit_not_addressed",
+  "expected_breakpoint_stage": "solution",
+  "expected_outcome": "disqualified",
+  "expected_mistake_categories": [
+    "poor_fit_not_addressed",
+    "pressure",
+    "premature_pitch"
+  ],
+  "gold_recovery_must_include_concepts": [
+    "clarify",
+    "next step",
+    "adoption"
+  ]
+}

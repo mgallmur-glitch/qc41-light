@@ -1,0 +1,7 @@
+[00:00] VENDEDORA: Gracias por la referencia de Carla.
+[00:08] PROSPECTO: Estamos eligiendo proveedor este mes.
+[00:16] VENDEDORA: Genial. Somos más rápidos con CRM-24.
+[00:28] PROSPECTO: ¿Puedes enviar el cuestionario de seguridad y agendar revisión técnica?
+[00:40] VENDEDORA: Te envío el cuestionario.
+[00:46] PROSPECTO: ¿Y la revisión técnica?
+[00:50] VENDEDORA: Si hace falta alguien avisa. ¡Éxito!
