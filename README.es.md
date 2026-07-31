@@ -42,7 +42,7 @@ python3 eval/generate_corpus.py
 python3 eval/run_baseline.py
 ```
 
-Referencia **100** · naive no estructurado **~32**. Ver [`eval/README.md`](eval/README.md).
+Ejecuta el baseline localmente y revisa [`eval/README.md`](eval/README.md) para las definiciones vigentes de referencia y puntaje naive.
 
 ## Qué entregas por llamada
 
@@ -58,7 +58,7 @@ Sin telemetría en este paquete. CLI/MCP es BYOK local (claves en tu entorno). R
 
 ## Estado
 
-Contrato de reporte: JSON `qc41-light-0.2`. CLI · MCP · eval en `main`.
+Release actual del paquete: [`v0.3.1`](https://github.com/mgallmur-glitch/qc41-light/releases/tag/v0.3.1). El contrato del schema sigue siendo `qc41-light-0.2` por compatibilidad. CLI · MCP · eval están en `main`.
 
 ## Licencia
 

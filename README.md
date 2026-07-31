@@ -55,7 +55,7 @@ python3 eval/generate_corpus.py   # 50 synthetic EN/ES calls
 python3 eval/run_baseline.py      # reference vs naive baseline
 ```
 
-Baselines: reference fixtures **100** · naive unstructured **~32**. Details: [`eval/README.md`](eval/README.md).
+Run the baseline locally and consult [`eval/README.md`](eval/README.md) for the current reference and naive-score definitions.
 
 ## What one call returns
 
@@ -78,7 +78,7 @@ No telemetry in this package. CLI/MCP analysis is local BYOK (env keys). Redact 
 
 ## Status
 
-Report contract: `qc41-light-0.2` JSON. CLI · MCP · eval on `main`. Tagged release `0.2.0` remains the stable skill baseline.
+Current package release: [`v0.3.1`](https://github.com/mgallmur-glitch/qc41-light/releases/tag/v0.3.1). The report schema contract remains `qc41-light-0.2` for compatibility. CLI · MCP · eval are on `main`.
 
 ## License
 
