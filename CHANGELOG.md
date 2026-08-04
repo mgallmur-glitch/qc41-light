@@ -2,6 +2,18 @@
 
 All notable changes to this project are documented here. Format follows [Keep a Changelog](https://keepachangelog.com/).
 
+## [0.3.2] — 2026-08-04
+
+### Fixed
+
+- Hermes Agent URL installation now includes the canonical prompt, report schema, validator, renderer, privacy requirements, and IP boundary through a standard `references/` runtime bundle.
+- Added regression tests that simulate the URL-installed file tree and execute validation plus Markdown rendering from that minimal installation.
+- Aligned the `SKILL.md` package version with release `0.3.2`; the JSON schema remains `qc41-light-0.2` by design.
+
+### Verified
+
+- Real English call E2E: 996 anonymized transcript segments, 33/33 exact evidence quotes, 0 residual PII regex matches, canonical validator PASS, deterministic renderer PASS.
+
 ## [0.3.0] — 2026-07-31
 
 ### Added

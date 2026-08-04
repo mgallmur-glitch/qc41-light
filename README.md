@@ -39,7 +39,21 @@ MCP tools: `analyze_sales_call`, `get_qc41_light_prompt`, `get_schema`.
 
 ## Skill / harness path
 
-Give any assistant `SKILL.md` + `prompts/analyze-call.md`, then validate:
+### Hermes Agent — one-command install
+
+```bash
+hermes skills install --yes https://raw.githubusercontent.com/mgallmur-glitch/qc41-light/v0.3.2/SKILL.md
+```
+
+Then invoke it in a new Hermes session:
+
+```text
+/qc41-light Analyze this authorized, redacted sales-call transcript and return validated JSON.
+```
+
+The URL installation includes the canonical prompt, report schema, validator, renderer, privacy rules, and IP boundary. Package version: `0.3.2`. Report schema version: `qc41-light-0.2`.
+
+For any other assistant, provide `SKILL.md` + `prompts/analyze-call.md`, then validate:
 
 ```bash
 python3 scripts/validate_report.py report.json
@@ -78,7 +92,7 @@ No telemetry in this package. CLI/MCP analysis is local BYOK (env keys). Redact 
 
 ## Status
 
-Current package release: [`v0.3.1`](https://github.com/mgallmur-glitch/qc41-light/releases/tag/v0.3.1). The report schema contract remains `qc41-light-0.2` for compatibility. CLI · MCP · eval are on `main`.
+Current package and skill release: [`v0.3.2`](https://github.com/mgallmur-glitch/qc41-light/releases/tag/v0.3.2). The report schema contract remains `qc41-light-0.2` for compatibility. These versions are intentionally separate: package changes do not alter the JSON shape unless the schema version also changes. CLI · MCP · eval are on `main`.
 
 ## License
 
