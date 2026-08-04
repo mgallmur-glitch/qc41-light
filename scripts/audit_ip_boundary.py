@@ -35,6 +35,7 @@ from pathlib import Path
 #    scanning them would produce a false positive on every run.
 EXEMPT_FILES = {
     "docs/IP_BOUNDARY.md",
+    "references/IP_BOUNDARY.md",
     "scripts/audit_ip_boundary.py",
     "tests/test_audit_ip_boundary.py",
 }

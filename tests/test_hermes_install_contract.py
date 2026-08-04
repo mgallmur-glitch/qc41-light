@@ -50,6 +50,12 @@ class TestHermesInstallContract(unittest.TestCase):
         ):
             self.assertIn(required, workflow)
 
+    def test_release_artifacts_are_ignored_and_runtime_boundary_is_exempt(self):
+        gitignore = (ROOT / ".gitignore").read_text().splitlines()
+        self.assertIn("dist/", gitignore)
+        audit = (ROOT / "scripts/audit_ip_boundary.py").read_text()
+        self.assertIn('"references/IP_BOUNDARY.md"', audit)
+
     def test_url_install_shape_can_validate_and_render(self):
         with tempfile.TemporaryDirectory() as td:
             install = Path(td) / "qc41-light"
