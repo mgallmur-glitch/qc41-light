@@ -10,6 +10,7 @@ This patch closes the Hermes Agent installation gap discovered during real-call 
 - `SKILL.md`, npm package, package lock, README status, and Git tag align at `0.3.2`.
 - The report contract remains `qc41-light-0.2`; package and schema versions are intentionally separate.
 - Hermes adapter documents the exact one-command installation and `/qc41-light` invocation.
+- Unknown outcomes use the explicit `not_observed` sentinel; the validator rejects unrelated quotes as outcome evidence.
 
 ### Added gates
 

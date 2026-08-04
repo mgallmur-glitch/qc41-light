@@ -54,6 +54,12 @@ def validate(data: dict) -> None:
     if not isinstance(outcome,dict) or set(outcome)!={"status","evidence"}: fail("call_outcome: invalid fields")
     if outcome["status"] not in {"won","lost","follow_up","no_decision","disqualified","unknown"}: fail("call_outcome.status: invalid")
     evidence(outcome["evidence"],"call_outcome.evidence")
+    outcome_evidence = outcome["evidence"]
+    if outcome["status"] == "unknown":
+        if outcome_evidence != {"quote": "not_observed", "speaker": None, "timestamp": None}:
+            fail("call_outcome.evidence: unknown outcome requires the explicit not_observed sentinel")
+    elif outcome_evidence["quote"] == "not_observed":
+        fail("call_outcome.evidence: observed outcomes require an exact transcript quote")
 
     stages=data["stage_analysis"]
     if not isinstance(stages,list) or not 3<=len(stages)<=12: fail("stage_analysis: expected 3-12 items")

@@ -35,6 +35,18 @@ class TestValidatorAcceptsValidReport(unittest.TestCase):
         result = run(VALIDATOR, REPORT)
         self.assertEqual(result.returncode, 0, result.stderr)
 
+    def test_unknown_outcome_accepts_explicit_not_observed_sentinel(self):
+        data = json.loads(REPORT.read_text())
+        data["call_outcome"] = {
+            "status": "unknown",
+            "evidence": {"quote": "not_observed", "speaker": None, "timestamp": None},
+        }
+        with tempfile.TemporaryDirectory() as td:
+            report = Path(td) / "unknown.json"
+            report.write_text(json.dumps(data))
+            result = run(VALIDATOR, report)
+        self.assertEqual(result.returncode, 0, result.stderr)
+
 
 class TestRendererAcceptsValidReport(unittest.TestCase):
     """The renderer must accept a valid report and emit key sections."""
@@ -124,6 +136,14 @@ class TestValidatorRejectsInvalidReports(unittest.TestCase):
             d["language"] = "fr"
         p = self._invalid_case(m, 4)
         self._assert_rejected(p, 4)
+    def test_unknown_outcome_rejects_arbitrary_evidence_quote(self):
+        def m(d):
+            d["call_outcome"] = {
+                "status": "unknown",
+                "evidence": {"quote": "Unrelated fragment", "speaker": "Speaker 1", "timestamp": None},
+            }
+        p = self._invalid_case(m, 5)
+        self._assert_rejected(p, 5)
 
 
 if __name__ == "__main__":

@@ -9,6 +9,7 @@ All notable changes to this project are documented here. Format follows [Keep a 
 - Hermes Agent URL installation now includes the canonical prompt, report schema, validator, renderer, privacy requirements, and IP boundary through a standard `references/` runtime bundle.
 - Added regression tests that simulate the URL-installed file tree and execute validation plus Markdown rendering from that minimal installation.
 - Aligned the `SKILL.md` package version with release `0.3.2`; the JSON schema remains `qc41-light-0.2` by design.
+- Unknown call outcomes now require an explicit `not_observed` sentinel; arbitrary transcript fragments can no longer masquerade as outcome evidence.
 
 ### Verified
 

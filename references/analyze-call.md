@@ -36,6 +36,8 @@ Extract only what is directly supported:
 
 - offer/context if stated;
 - call outcome: won, lost, follow-up, no decision, disqualified or unknown;
+  - when the outcome is observed, `call_outcome.evidence` must contain an exact transcript quote;
+  - when the outcome is unknown, use exactly `{"quote":"not_observed","speaker":null,"timestamp":null}` — never attach an unrelated quote;
 - next step;
 - whether price/payment appeared;
 - whether an objection appeared.
