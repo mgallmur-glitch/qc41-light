@@ -35,6 +35,20 @@ Muestras: [`examples/synthetic-report.es.md`](examples/synthetic-report.es.md) �
 | Skill / harness | `SKILL.md` + `prompts/analyze-call.md` |
 | Claude Code | [`adapters/claude-code/MARKETPLACE.md`](adapters/claude-code/MARKETPLACE.md) |
 
+## Instalación en Hermes Agent
+
+```bash
+hermes skills install --yes https://raw.githubusercontent.com/mgallmur-glitch/qc41-light/v0.3.2/SKILL.md
+```
+
+Luego inicia una sesión nueva e invoca:
+
+```text
+/qc41-light Analiza este transcript autorizado y redactado, y devuelve JSON validado.
+```
+
+La instalación URL incluye prompt, schema, validator, renderer, privacidad y límite de IP. Versión del paquete/skill: `0.3.2`. Versión del schema del reporte: `qc41-light-0.2`.
+
 ## Eval
 
 ```bash
@@ -58,7 +72,7 @@ Sin telemetría en este paquete. CLI/MCP es BYOK local (claves en tu entorno). R
 
 ## Estado
 
-Release actual del paquete: [`v0.3.1`](https://github.com/mgallmur-glitch/qc41-light/releases/tag/v0.3.1). El contrato del schema sigue siendo `qc41-light-0.2` por compatibilidad. CLI · MCP · eval están en `main`.
+Release actual del paquete y la skill: [`v0.3.2`](https://github.com/mgallmur-glitch/qc41-light/releases/tag/v0.3.2). El contrato del schema sigue siendo `qc41-light-0.2` por compatibilidad. Son versiones separadas intencionalmente: los cambios del paquete no alteran la forma del JSON salvo que también cambie la versión del schema. CLI · MCP · eval están en `main`.
 
 ## Licencia
 

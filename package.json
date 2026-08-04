@@ -1,6 +1,6 @@
 {
   "name": "qc41-light",
-  "version": "0.3.0",
+  "version": "0.3.2",
   "description": "QC 4.1 Light — evidence-first sales-call diagnosis. CLI, MCP, and eval harness.",
   "type": "module",
   "bin": {
@@ -14,7 +14,8 @@
   "scripts": {
     "start": "node bin/qc41-light.js demo",
     "demo": "node bin/qc41-light.js demo",
-    "mcp": "node bin/qc41-light.js mcp"
+    "mcp": "node bin/qc41-light.js mcp",
+    "test": "node tests/node-smoke.mjs"
   },
   "files": [
     "eval",

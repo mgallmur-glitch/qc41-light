@@ -1,7 +1,7 @@
 ---
 name: qc41-light
 description: "Use when diagnosing one sales-call transcript with evidence."
-version: 0.2.0
+version: 0.3.2
 metadata:
   hermes.tags:
     - sales-call-analysis
@@ -28,7 +28,7 @@ If a transcript is unavailable, request it. Never invent one.
 
 ## Procedure
 
-1. Read `prompts/analyze-call.md`.
+1. Read the [canonical analysis prompt](references/analyze-call.md).
 2. Read the transcript completely.
 3. Audit transcript quality and call outcome.
 4. Build an evidence-backed stage map.
@@ -39,14 +39,14 @@ If a transcript is unavailable, request it. Never invent one.
 9. Produce exactly three observable mistakes and three corrections.
 10. Produce one natural recovery line, a four-line replay plan and a five-item checklist.
 11. State missing context and limitations.
-12. Return JSON matching `schemas/qc41-light-report.schema.json`.
-13. Validate with:
+12. Return JSON matching the [canonical report schema](references/qc41-light-report.schema.json).
+13. Validate with the [validator](scripts/validate_report.py):
 
 ```bash
 python3 scripts/validate_report.py PATH_TO_REPORT.json
 ```
 
-14. If the user wants a human-readable version:
+14. If the user wants a human-readable version, use the [Markdown renderer](scripts/render_report.py):
 
 ```bash
 python3 scripts/render_report.py PATH_TO_REPORT.json
@@ -88,7 +88,7 @@ Private/prohibited:
 - complete QC prompt corpus;
 - team benchmarking and coaching history.
 
-See `docs/IP_BOUNDARY.md`.
+See the [public/private IP boundary](references/IP_BOUNDARY.md) and [privacy requirements](references/PRIVACY.md).
 
 ## Output
 
