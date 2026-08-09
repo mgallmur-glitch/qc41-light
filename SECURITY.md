@@ -2,7 +2,7 @@
 
 ## Supported versions
 
-QC 4.1 Light `v0.3.4` is supported on the latest `main` branch. Security fixes
+QC 4.1 Light `v0.3.5` is supported on the latest `main` branch. Security fixes
 target `main`.
 
 ## Data handling

@@ -1,7 +1,7 @@
 ---
 name: qc41-light
 description: "Use when diagnosing one sales-call transcript with evidence."
-version: 0.3.4
+version: 0.3.5
 metadata:
   hermes.tags:
     - sales-call-analysis

@@ -5,7 +5,7 @@
 Install the tagged skill with one command:
 
 ```bash
-hermes skills install --yes https://raw.githubusercontent.com/mgallmur-glitch/qc41-light/v0.3.4/SKILL.md
+hermes skills install --yes https://raw.githubusercontent.com/mgallmur-glitch/qc41-light/v0.3.5/SKILL.md
 ```
 
 The installer must report these runtime files:
@@ -28,6 +28,6 @@ Start a new Hermes session and invoke:
 
 Hermes loads `SKILL.md`, reads the complete transcript, writes canonical JSON in the active workspace, validates it with `scripts/validate_report.py`, and optionally renders Markdown with `scripts/render_report.py`.
 
-Package/skill version is `0.3.4`. The report schema remains `qc41-light-0.2` for compatibility.
+Package/skill version is `0.3.5`. The report schema remains `qc41-light-0.2` for compatibility.
 
 Do not install into another Hermes profile without explicit authorization. Do not send unredacted customer transcripts to hosted models. This open skill does not connect to private Closing Code AI endpoints.

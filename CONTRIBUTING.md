@@ -1,7 +1,7 @@
 # Contributing to QC 4.1 Light
 
 Thank you for improving QC 4.1 Light. This repository is a public Apache-2.0
-package (`v0.3.4`). Contributions that stay inside the Light boundary are
+package (`v0.3.5`). Contributions that stay inside the Light boundary are
 welcome.
 
 ## Running the tests

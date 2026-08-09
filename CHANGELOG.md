@@ -2,6 +2,13 @@
 
 All notable changes to this project are documented here. Format follows [Keep a Changelog](https://keepachangelog.com/).
 
+## [0.3.5] — 2026-08-09
+
+### Changed
+
+- Republished on the fresh `mgallmur-glitch/qc41-light` repository after contributor-metadata reset; package contents unchanged from v0.3.4.
+- All skill, marketplace, plugin, and documentation surfaces aligned to `0.3.5`.
+
 ## [0.3.4] — 2026-08-09
 
 ### Changed

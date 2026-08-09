@@ -1,7 +1,7 @@
 ---
 name: qc41-light
 description: "Use when diagnosing one sales-call transcript with evidence. Returns QC 4.1 Light JSON."
-version: 0.3.4
+version: 0.3.5
 ---
 
 # QC 4.1 Light (Claude Code skill)

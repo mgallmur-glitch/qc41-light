@@ -48,7 +48,7 @@ Requiere un PAT de GitHub con `read:packages` (y login a `npm.pkg.github.com`), 
 ## Instalación en Hermes Agent
 
 ```bash
-hermes skills install --yes https://raw.githubusercontent.com/mgallmur-glitch/qc41-light/v0.3.4/SKILL.md
+hermes skills install --yes https://raw.githubusercontent.com/mgallmur-glitch/qc41-light/v0.3.5/SKILL.md
 ```
 
 Luego inicia una sesión nueva e invoca:
@@ -57,7 +57,7 @@ Luego inicia una sesión nueva e invoca:
 /qc41-light Analiza este transcript autorizado y redactado, y devuelve JSON validado.
 ```
 
-La instalación URL incluye prompt, schema, validator, renderer, privacidad y límite de IP. Versión del paquete/skill: `0.3.4`. Versión del schema del reporte: `qc41-light-0.2`.
+La instalación URL incluye prompt, schema, validator, renderer, privacidad y límite de IP. Versión del paquete/skill: `0.3.5`. Versión del schema del reporte: `qc41-light-0.2`.
 
 ## Eval
 
@@ -82,7 +82,7 @@ Sin telemetría en este paquete. CLI/MCP es BYOK local (claves en tu entorno). R
 
 ## Estado
 
-Release actual del paquete y la skill: [`v0.3.4`](https://github.com/mgallmur-glitch/qc41-light/releases/tag/v0.3.4). El contrato del schema sigue siendo `qc41-light-0.2` por compatibilidad. Son versiones separadas intencionalmente: los cambios del paquete no alteran la forma del JSON salvo que también cambie la versión del schema. CLI · MCP · eval están en `main`.
+Release actual del paquete y la skill: [`v0.3.5`](https://github.com/mgallmur-glitch/qc41-light/releases/tag/v0.3.5). El contrato del schema sigue siendo `qc41-light-0.2` por compatibilidad. Son versiones separadas intencionalmente: los cambios del paquete no alteran la forma del JSON salvo que también cambie la versión del schema. CLI · MCP · eval están en `main`.
 
 ## Licencia
 
