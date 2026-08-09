@@ -1,0 +1,20 @@
+# Anonymized e2e fixture fragment (English demo adaptation). Public-safe — no names/phones/emails.
+[00:00] SELLER: Hi, thanks for taking the call. I'm a growth consultant. Before we get into detail, tell me a bit about your current situation.
+[00:16] PROSPECT: Well, we've had a digital marketing agency for 3 years. We bill around 50k a month but I feel stuck. We can't break past that.
+[00:32] SELLER: I get it. And when you say stuck, what frustrates you the most?
+[00:40] PROSPECT: I work more hours than before but the business isn't growing. I'm burned out, honestly.
+[00:52] SELLER: And how much would you say that's costing you? Not just in money — in quality of life.
+[01:05] PROSPECT: A lot. Probably leaving about 30k a month on the table that I could be generating. And my family already complains about the time.
+[01:22] SELLER: Look, what you describe is exactly the pattern we see in 80 percent of the agencies that come to us. They have product, they have a team, but they're missing the system.
+[01:40] PROSPECT: Hmm, and what kind of system?
+[01:45] SELLER: I'll walk you through it. We implement a growth framework with 3 pillars. First, optimize the current operation. Second, a predictable acquisition system. And third, a premium pricing model.
+[02:05] PROSPECT: Sounds interesting but how much does it cost?
+[02:10] SELLER: Fair question. The investment is 5 thousand dollars for the 3-month program. Now, you said you're leaving 30k a month on the table. If with our system you recover even half of that in the first month, what would the return be?
+[02:30] PROSPECT: So it would pay for itself.
+[02:33] SELLER: Exactly. And not only that. On average our clients double their revenue in 90 days.
+[02:42] PROSPECT: Look, I'll be honest. I'm interested but I need to talk it over with my partner.
+[02:50] SELLER: Understood. And what do you think your partner needs to know to make this decision?
+[02:58] PROSPECT: Basically the numbers and the work plan.
+[03:04] SELLER: Perfect. What if we schedule a call with the three of us tomorrow at 10? I'll present the detailed plan and we clear every question.
+[03:16] PROSPECT: Yeah, that works for me.
+[03:18] SELLER: Great — I'll send the invite right now.

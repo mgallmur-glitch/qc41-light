@@ -1,0 +1,22 @@
+{
+  "id": "026",
+  "expected_breakpoint_stage": "solution",
+  "accepted_breakpoint_stages": [],
+  "expected_outcome": "disqualified",
+  "accepted_outcomes": [],
+  "expected_mistake_categories": [
+    "poor_fit_not_addressed",
+    "pressure",
+    "premature_pitch"
+  ],
+  "gold_recovery_must_include_concepts": [
+    "aclarar",
+    "siguiente paso",
+    "adopción"
+  ],
+  "failure_mode": "poor_fit_not_addressed",
+  "require_evidence_in_transcript": true,
+  "min_mistakes": 3,
+  "min_corrections": 3,
+  "require_recovery_line": true
+}

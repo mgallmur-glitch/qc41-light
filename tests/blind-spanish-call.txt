@@ -1,0 +1,16 @@
+[00:00] ASESORA: Gracias por el tiempo. Para que esto sea útil, me gustaría entender cómo están gestionando las llamadas y después, si tiene sentido, te muestro cómo funciona. ¿Te parece?
+[00:15] PROSPECTO: Sí. Tenemos tres closers y unas cuarenta llamadas por semana, pero cada uno registra las notas de forma diferente.
+[00:31] ASESORA: ¿Qué ocurre después de una llamada que no cierra?
+[00:36] PROSPECTO: En teoría hacemos seguimiento, pero casi siempre depende de que el closer se acuerde. Yo escucho algunas grabaciones los viernes.
+[00:50] ASESORA: ¿Y qué efecto tiene eso en el negocio?
+[00:54] PROSPECTO: No sé exactamente. Siento que se pierden oportunidades, pero no tenemos el dato. Ese es parte del problema.
+[01:05] ASESORA: Nuestro sistema analiza todas las llamadas, encuentra patrones y genera coaching para cada closer.
+[01:15] PROSPECTO: Eso suena bien, pero me preocupa que los closers sientan que los estamos vigilando.
+[01:23] ASESORA: No deberían sentirlo así porque es para ayudarlos a mejorar. Además, el dashboard es privado.
+[01:34] PROSPECTO: Ya, pero tuvimos un problema parecido con el CRM. Dejaron de llenarlo porque sentían que era más control.
+[01:45] ASESORA: Entiendo. Podemos hacer una capacitación. El piloto cuesta 750 dólares por dos semanas.
+[01:56] PROSPECTO: El precio no es el problema. Necesito hablarlo con mi socio y con el jefe de ventas.
+[02:05] ASESORA: ¿Ellos deciden o tú decides?
+[02:08] PROSPECTO: Yo apruebo el presupuesto, pero si el jefe de ventas no lo adopta, no sirve.
+[02:16] ASESORA: Perfecto, entonces te envío la propuesta para que la revisen.
+[02:23] PROSPECTO: Está bien.

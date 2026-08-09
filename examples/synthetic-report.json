@@ -1,0 +1,113 @@
+{
+  "version": "qc41-light-0.2",
+  "language": "en",
+  "transcript_quality": {
+    "completeness": "complete",
+    "speaker_labels": true,
+    "timestamps": true,
+    "notes": ["The synthetic transcript includes the opening, price discussion, objection and call ending."]
+  },
+  "call_summary": "The seller moved directly into a product demonstration, missed the prospect's CRM and adoption concerns, introduced price without establishing value, and ended with an undefined review step.",
+  "call_outcome": {
+    "status": "follow_up",
+    "evidence": {"quote": "Send me something and I will review it.", "speaker": "PROSPECT", "timestamp": "01:16"}
+  },
+  "stage_analysis": [
+    {"stage": "opening", "status": "partial", "evidence": [{"quote": "Thanks for joining.", "speaker": "SELLER", "timestamp": "00:00"}], "finding": "The seller opened politely but did not establish a mutual agenda."},
+    {"stage": "discovery", "status": "weak", "evidence": [{"quote": "I mostly wanted to understand whether this works with our current CRM.", "speaker": "PROSPECT", "timestamp": "00:12"}], "finding": "A useful decision criterion appeared, but the seller did not explore the current workflow or constraints."},
+    {"stage": "solution", "status": "weak", "evidence": [{"quote": "We have AI scoring, sequences, analytics and coaching.", "speaker": "SELLER", "timestamp": "00:21"}], "finding": "The solution was presented as a generic feature list rather than a response to diagnosed requirements."},
+    {"stage": "price", "status": "weak", "evidence": [{"quote": "The plan is $1,500 to set up and $500 per month.", "speaker": "SELLER", "timestamp": "00:46"}], "finding": "Price appeared before implementation risk and value criteria were resolved."},
+    {"stage": "objection", "status": "weak", "evidence": [{"quote": "That is more than I expected. I need to think about it.", "speaker": "PROSPECT", "timestamp": "01:01"}], "finding": "The seller discounted immediately instead of clarifying whether the concern was budget, value, risk or authority."},
+    {"stage": "next_step", "status": "weak", "evidence": [{"quote": "Great, I will send the deck.", "speaker": "SELLER", "timestamp": "01:21"}], "finding": "The next step had no evaluation criteria, owner, date or decision commitment."}
+  ],
+  "strengths": [
+    {"finding": "The seller stated the offer and pricing clearly rather than hiding the commercial terms.", "evidence": {"quote": "The plan is $1,500 to set up and $500 per month.", "speaker": "SELLER", "timestamp": "00:46"}, "why_keep": "Commercial clarity is useful once the prospect has enough context to evaluate value and risk."},
+    {"finding": "The seller accepted the prospect's request for additional material without arguing.", "evidence": {"quote": "Great, I will send the deck.", "speaker": "SELLER", "timestamp": "01:21"}, "why_keep": "A calm response should remain, but it needs a specific review agreement and follow-up."}
+  ],
+  "breakpoint": {
+    "stage": "discovery",
+    "evidence": {"quote": "I mostly wanted to understand whether this works with our current CRM.", "speaker": "PROSPECT", "timestamp": "00:12"},
+    "why_it_mattered": "The prospect supplied the decision criterion, but the seller replaced discovery with a broad feature pitch instead of clarifying integration and adoption requirements."
+  },
+  "objections": [
+    {
+      "label": "implementation",
+      "evidence": {"quote": "We tried an automation tool last year and the team stopped using it.", "speaker": "PROSPECT", "timestamp": "00:38"},
+      "interpretation": "The prospect expressed a concrete adoption risk based on a previous failed implementation.",
+      "confidence": 0.96
+    },
+    {
+      "label": "price",
+      "evidence": {"quote": "That is more than I expected.", "speaker": "PROSPECT", "timestamp": "01:01"},
+      "interpretation": "The stated price exceeded the prospect's expectation, but the transcript does not establish whether budget or unproven value was the primary issue.",
+      "confidence": 0.9
+    }
+  ],
+  "mistakes": [
+    {
+      "id": "M1",
+      "category": "premature_pitch",
+      "finding": "The seller presented the dashboard before establishing the prospect's current process and decision criteria.",
+      "evidence": {"quote": "Let me show you the dashboard.", "speaker": "SELLER", "timestamp": "00:00"},
+      "consequence": "The demonstration began without a diagnosed problem, making the later feature list feel generic."
+    },
+    {
+      "id": "M2",
+      "category": "objection_not_clarified",
+      "finding": "The seller answered the previous adoption failure with an unsupported superiority claim instead of diagnosing why adoption failed.",
+      "evidence": {"quote": "This is different because our AI is much better.", "speaker": "SELLER", "timestamp": "00:46"},
+      "consequence": "The prospect's implementation risk remained unresolved before price was introduced."
+    },
+    {
+      "id": "M3",
+      "category": "vague_next_step",
+      "finding": "The seller accepted an undefined document review without agreeing on what the prospect would evaluate or when they would decide.",
+      "evidence": {"quote": "Great, I will send the deck.", "speaker": "SELLER", "timestamp": "01:21"},
+      "consequence": "The call ended without a specific follow-up commitment, owner, date or decision criterion."
+    }
+  ],
+  "corrections": [
+    {
+      "mistake_id": "M1",
+      "action": "Delay the demonstration and ask how the current CRM and follow-up process work before selecting what to show.",
+      "why": "A tailored demonstration can connect each feature to a verified operational gap.",
+      "example_line": "Before I show anything, how are leads moving through your CRM today, and where does follow-up break?"
+    },
+    {
+      "mistake_id": "M2",
+      "action": "Clarify the previous implementation failure, including what the team resisted and what successful adoption would require.",
+      "why": "The answer should reduce the prospect's actual implementation risk rather than assert that the product is better.",
+      "example_line": "What caused the team to stop using the last tool: setup, workflow friction, training, or something else?"
+    },
+    {
+      "mistake_id": "M3",
+      "action": "Define the review criteria and schedule a specific follow-up only if both parties have a legitimate reason to continue.",
+      "why": "A dated, criterion-based next step prevents an ambiguous document send from becoming silent follow-up.",
+      "example_line": "What do you need to confirm in the deck, and should we review those points together Thursday at 2?"
+    }
+  ],
+  "recovery_line": {
+    "text": "Before we talk about a discount, can we go back to what failed last time and define what your team would need to adopt this successfully?",
+    "why": "It moves the conversation away from premature price pressure and back to the unresolved implementation risk."
+  },
+  "replay_plan": {
+    "opening_question": "Before I show anything, what needs to improve in your current follow-up process for this call to be useful?",
+    "diagnostic_follow_up": "Where does the current CRM workflow break, and what does the team do when that happens?",
+    "objection_clarifier": "When you say it is more than expected, is the main concern the budget, the value, or the risk that the team will not adopt it?",
+    "next_step_line": "If the integration and adoption requirements check out, what would you need to decide, and when should we review that together?"
+  },
+  "next_call_focus": ["Diagnose the current CRM workflow before demonstrating", "Clarify prior adoption failure", "End with a criterion-based next step"],
+  "next_call_checklist": [
+    "Agree on the purpose and agenda before the demonstration",
+    "Map the current CRM and follow-up workflow",
+    "Clarify why the previous tool failed",
+    "Connect only relevant capabilities to diagnosed gaps",
+    "Set a specific review criterion, owner and date"
+  ],
+  "confidence": {
+    "score": 0.93,
+    "reason": "The transcript has speaker labels, timestamps, explicit objections, pricing and a complete ending, although broader business context is missing.",
+    "missing_context": ["Offer scope beyond the brief description", "Prospect's budget and authority", "Current CRM name and technical constraints"]
+  },
+  "limitations": ["This is a short synthetic transcript and may omit earlier discovery or later follow-up.", "The analysis does not infer personality, financial capacity or hidden motives."]
+}

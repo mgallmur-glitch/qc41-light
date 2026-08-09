@@ -1,0 +1,23 @@
+{
+  "name": "qc41-light",
+  "owner": {
+    "name": "Mauricio Gallmur"
+  },
+  "metadata": {
+    "description": "QC 4.1 Light \u2014 evidence-first sales-call diagnosis (OSS Apache-2.0)",
+    "version": "0.3.4"
+  },
+  "plugins": [
+    {
+      "name": "qc41-light",
+      "source": "./adapters/claude-code",
+      "description": "Diagnose one sales-call transcript with evidence-backed breakpoint, mistakes, and recovery line.",
+      "version": "0.3.4",
+      "author": {
+        "name": "Mauricio Gallmur"
+      },
+      "category": "analysis",
+      "homepage": "https://github.com/mgallmur-glitch/qc41-light"
+    }
+  ]
+}

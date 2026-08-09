@@ -1,0 +1,9 @@
+[00:00] ASESOR: ¿Qué está roto en tu pipeline hoy?
+[00:12] PROSPECTO: El seguimiento después de demos es inconsistente.
+[00:22] ASESOR: Nuestras secuencias lo resuelven. ¿Te muestro dos minutos?
+[00:35] PROSPECTO: Tal vez. ¿Quién es dueño del follow-up hoy?
+[00:48] ASESOR: No importa, el producto lo hace. Mira el dashboard.
+[01:05] PROSPECTO: Tenemos restricciones de cumplimiento en CRM-28.
+[01:18] ASESOR: Todos dicen eso. ¿Te mando precios?
+[01:30] PROSPECTO: Todavía no. Voy a hablar con operaciones.
+[01:38] ASESOR: Dale, avísame.

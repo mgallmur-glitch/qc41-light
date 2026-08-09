@@ -1,0 +1,25 @@
+{
+  "id": "022",
+  "expected_breakpoint_stage": "objection",
+  "accepted_breakpoint_stages": [],
+  "expected_outcome": "no_decision",
+  "accepted_outcomes": [
+    "follow_up",
+    "no_decision"
+  ],
+  "expected_mistake_categories": [
+    "objection_not_clarified",
+    "unsupported_claim",
+    "vague_next_step"
+  ],
+  "gold_recovery_must_include_concepts": [
+    "aclarar",
+    "siguiente paso",
+    "adopción"
+  ],
+  "failure_mode": "missed_implementation_risk",
+  "require_evidence_in_transcript": true,
+  "min_mistakes": 3,
+  "min_corrections": 3,
+  "require_recovery_line": true
+}

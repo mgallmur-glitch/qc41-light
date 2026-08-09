@@ -1,0 +1,237 @@
+{
+  "version": "qc41-light-0.2",
+  "language": "es",
+  "transcript_quality": {
+    "completeness": "complete",
+    "speaker_labels": true,
+    "timestamps": true,
+    "notes": [
+          "Anonymized e2e fixture fragment for public demo; speaker labels reconstructed for fixture stream; first name removed."
+    ]
+  },
+  "call_summary": "El closer exploró dolor y costo de inacción, pero saltó a un framework de 3 pilares y a una promesa de resultados sin anclar evidencia, y cerró con un trío cuando el prospecto nombró al socio como filtro de decisión.",
+  "call_outcome": {
+    "status": "follow_up",
+    "evidence": {
+      "quote": "Sí, me parece bien.",
+      "speaker": "PROSPECT",
+      "timestamp": "03:16"
+    }
+  },
+  "stage_analysis": [
+    {
+      "stage": "opening",
+      "status": "partial",
+      "evidence": [
+        {
+          "quote": "Antes de entrar en detalle, cuéntame un poco sobre tu situación actual.",
+          "speaker": "SELLER",
+          "timestamp": "00:00"
+        }
+      ],
+      "finding": "Apertura cordial con permiso para descubrir, sin agenda mutuamente acordada."
+    },
+    {
+      "stage": "discovery",
+      "status": "partial",
+      "evidence": [
+        {
+          "quote": "Probablemente estoy dejando sobre la mesa unos 30 mil al mes que podría estar generando.",
+          "speaker": "PROSPECT",
+          "timestamp": "01:05"
+        }
+      ],
+      "finding": "Hay dolor cuantificado, pero no se exploró el proceso actual de adquisición ni el rol del socio antes del pitch."
+    },
+    {
+      "stage": "solution",
+      "status": "weak",
+      "evidence": [
+        {
+          "quote": "Nosotros implementamos un framework de crecimiento que tiene 3 pilares.",
+          "speaker": "SELLER",
+          "timestamp": "01:45"
+        }
+      ],
+      "finding": "La solución se presentó como framework genérico tras un patrón de industria, no como respuesta a un diagnóstico operativo."
+    },
+    {
+      "stage": "price",
+      "status": "partial",
+      "evidence": [
+        {
+          "quote": "La inversión es de 5 mil dólares por los 3 meses del programa.",
+          "speaker": "SELLER",
+          "timestamp": "02:10"
+        }
+      ],
+      "finding": "El precio se ancló al costo de inacción (30 mil/mes), pero llegó junto a una promesa no citada."
+    },
+    {
+      "stage": "objection",
+      "status": "partial",
+      "evidence": [
+        {
+          "quote": "Me interesa pero necesito hablarlo con mi socio.",
+          "speaker": "PROSPECT",
+          "timestamp": "02:42"
+        }
+      ],
+      "finding": "El closer preguntó qué necesita el socio, pero no aisló si el socio ya conoce el costo de 30 mil/mes."
+    },
+    {
+      "stage": "next_step",
+      "status": "partial",
+      "evidence": [
+        {
+          "quote": "¿Qué te parece si agendamos una llamada los tres juntos mañana a las 10?",
+          "speaker": "SELLER",
+          "timestamp": "03:04"
+        }
+      ],
+      "finding": "Hay fecha y participantes, pero el criterio de decisión del socio queda difuso."
+    }
+  ],
+  "strengths": [
+    {
+      "finding": "El closer cuantificó el costo emocional y económico antes de vender.",
+      "evidence": {
+        "quote": "Y ¿cuánto dirías que eso te está costando? No solo en dinero sino en calidad de vida.",
+        "speaker": "SELLER",
+        "timestamp": "00:52"
+      },
+      "why_keep": "Esa línea convierte frustración vaga en número usable para el resto de la llamada."
+    },
+    {
+      "finding": "Cuando apareció el socio, el closer preguntó qué información faltaba en lugar de pelear el cierre.",
+      "evidence": {
+        "quote": "Y ¿qué crees que tu socio necesita saber para tomar esta decisión?",
+        "speaker": "SELLER",
+        "timestamp": "02:50"
+      },
+      "why_keep": "Preguntar el gap de información es correcto; falta anclarlo al dolor ya admitido."
+    }
+  ],
+  "breakpoint": {
+    "stage": "solution",
+    "evidence": {
+      "quote": "Nosotros implementamos un framework de crecimiento que tiene 3 pilares.",
+      "speaker": "SELLER",
+      "timestamp": "01:45"
+    },
+    "why_it_mattered": "El prospecto acababa de cuantificar 30 mil/mes de fuga. En lugar de diagnosticar el proceso actual, el closer pasó a un pitch de framework — y más tarde a una promesa de duplicar facturación sin cita."
+  },
+  "objections": [
+    {
+      "label": "authority",
+      "evidence": {
+        "quote": "Me interesa pero necesito hablarlo con mi socio.",
+        "speaker": "PROSPECT",
+        "timestamp": "02:42"
+      },
+      "interpretation": "Filtro de autoridad/alineación — no es rechazo de precio en el transcript.",
+      "confidence": 0.94
+    },
+    {
+      "label": "price",
+      "evidence": {
+        "quote": "Suena interesante pero ¿cuánto cuesta?",
+        "speaker": "PROSPECT",
+        "timestamp": "02:05"
+      },
+      "interpretation": "Pregunta de precio tras el pitch; aún no es objeción de asequibilidad.",
+      "confidence": 0.88
+    }
+  ],
+  "mistakes": [
+    {
+      "id": "M1",
+      "category": "premature_pitch",
+      "finding": "Tras el dolor cuantificado, el closer presentó un framework de 3 pilares sin mapear el proceso actual de adquisición.",
+      "evidence": {
+        "quote": "Nosotros implementamos un framework de crecimiento que tiene 3 pilares.",
+        "speaker": "SELLER",
+        "timestamp": "01:45"
+      },
+      "consequence": "La solución suena genérica frente a un problema que el prospecto ya puso en números."
+    },
+    {
+      "id": "M2",
+      "category": "unsupported_claim",
+      "finding": "El closer afirmó que los clientes duplican facturación en 90 días sin anclar evidencia en el transcript.",
+      "evidence": {
+        "quote": "Nuestros clientes en promedio duplican su facturación en 90 días.",
+        "speaker": "SELLER",
+        "timestamp": "02:33"
+      },
+      "consequence": "La promesa eleva la presión justo antes de que el prospecto desvíe la decisión al socio."
+    },
+    {
+      "id": "M3",
+      "category": "objection_not_clarified",
+      "finding": "Al aparecer el socio, se agenda un trío sin confirmar si el socio ya conoce el costo de 30 mil/mes.",
+      "evidence": {
+        "quote": "Me interesa pero necesito hablarlo con mi socio.",
+        "speaker": "PROSPECT",
+        "timestamp": "02:42"
+      },
+      "consequence": "El follow-up puede reabrir desde cero si el socio no comparte el diagnóstico."
+    }
+  ],
+  "corrections": [
+    {
+      "mistake_id": "M1",
+      "action": "Antes del framework, pedir el mapa actual: cómo entran leads, dónde se caen, qué ya probaron.",
+      "why": "El pitch debe responder a un gap operativo verificado.",
+      "example_line": "Antes del framework: hoy, ¿cómo llegan los leads y en qué paso se les cae el mes?"
+    },
+    {
+      "mistake_id": "M2",
+      "action": "Sustituir la promesa genérica por el número que el prospecto ya dio.",
+      "why": "La evidencia del transcript es más fuerte que un promedio no citado.",
+      "example_line": "No necesito promediar 90 días — tú ya dijiste 30 mil al mes. ¿Qué tendría que pasar en 30 días para recuperar la mitad?"
+    },
+    {
+      "mistake_id": "M3",
+      "action": "Aislar autoridad: ¿el socio conoce el costo de inacción o es la primera vez?",
+      "why": "Sin ese ancla, la llamada de tres empieza fría.",
+      "example_line": "¿Tu socio ya sabe lo de los 30 mil al mes, o mañana sería la primera vez que lo pone en números?"
+    }
+  ],
+  "recovery_line": {
+    "text": "Antes de hablar del precio con tu socio: ¿él ya conoce lo de los 30 mil al mes sobre la mesa, o mañana sería la primera vez que lo ponen en números?",
+    "why": "Devuelve la conversación al dolor ya admitido y aísla si el filtro del socio es información o veto."
+  },
+  "replay_plan": {
+    "opening_question": "Para que esta llamada sirva: ¿qué tiene que cambiar en prospección o delivery en los próximos 90 días?",
+    "diagnostic_follow_up": "Cuando dices estancados en 50 mil: ¿el cuello está en leads, en cierre o en capacidad de entregar?",
+    "objection_clarifier": "Cuando dices que necesitas hablarlo con tu socio, ¿falta información, o él ya dijo que no quieren invertir?",
+    "next_step_line": "Si el socio ve el mismo costo de 30 mil/mes, ¿qué decidirían juntos el jueves a las 10?"
+  },
+  "next_call_focus": [
+    "Mapear proceso actual antes del framework",
+    "Anclar ROI al número del prospecto (30 mil/mes)",
+    "Aislar qué sabe el socio antes del trío"
+  ],
+  "next_call_checklist": [
+    "Acordar agenda mutua en la apertura",
+    "Diagnosticar adquisición actual antes de pilares",
+    "Evitar promesas de resultado sin evidencia en el transcript",
+    "Aislar autoridad cuando aparezca el socio",
+    "Cerrar con criterio de decisión + fecha + dueño"
+  ],
+  "confidence": {
+    "score": 0.91,
+    "reason": "Transcript con turnos claros, dolor cuantificado, precio, objeción de autoridad y next step fechado.",
+    "missing_context": [
+      "Nombre del CRM o canal de adquisición actual",
+      "Presupuesto explícito del socio",
+      "Historial de herramientas previas"
+    ]
+  },
+  "limitations": [
+    "Fragmento de fixture e2e; puede omitir audio previo o follow-up posterior.",
+    "El análisis no infiere personalidad, capacidad financiera ni motivos ocultos."
+  ]
+}
+

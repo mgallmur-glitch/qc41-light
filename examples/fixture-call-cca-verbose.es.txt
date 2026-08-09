@@ -1,0 +1,20 @@
+# Anonymized e2e fixture fragment for public demo. Public-safe — no names/phones/emails.
+[00:00] SELLER: Hola, gracias por tomar la llamada. Soy consultor de crecimiento. Antes de entrar en detalle, cuéntame un poco sobre tu situación actual.
+[00:16] PROSPECT: Bueno, tenemos una agencia de marketing digital desde hace 3 años. Facturamos alrededor de 50 mil al mes pero siento que estamos estancados. No podemos pasar de ahí.
+[00:32] SELLER: Entiendo perfectamente. Y cuando dices estancados, ¿qué es lo que más te frustra?
+[00:40] PROSPECT: Que trabajo más horas que antes pero el negocio no crece. Estoy quemado honestamente.
+[00:52] SELLER: Y ¿cuánto dirías que eso te está costando? No solo en dinero sino en calidad de vida.
+[01:05] PROSPECT: Uf, mucho. Probablemente estoy dejando sobre la mesa unos 30 mil al mes que podría estar generando. Y mi familia ya me reclama el tiempo.
+[01:22] SELLER: Mira, eso que describes es exactamente el patrón que vemos en el 80 por ciento de las agencias que llegan a nosotros. Tienen producto, tienen equipo, pero les falta el sistema.
+[01:40] PROSPECT: Mmm, ¿y qué tipo de sistema?
+[01:45] SELLER: Te cuento. Nosotros implementamos un framework de crecimiento que tiene 3 pilares. Primero, optimización de la operación actual. Segundo, un sistema de adquisición predecible. Y tercero, un modelo de pricing premium.
+[02:05] PROSPECT: Suena interesante pero ¿cuánto cuesta?
+[02:10] SELLER: Perfecto que preguntes. La inversión es de 5 mil dólares por los 3 meses del programa. Ahora, dijiste que estás dejando 30 mil al mes sobre la mesa. Si con nuestro sistema recuperas aunque sea la mitad de eso en el primer mes, ¿cuál sería el retorno?
+[02:30] PROSPECT: O sea que se pagaría solo.
+[02:33] SELLER: Exactamente. Y no solo eso. Nuestros clientes en promedio duplican su facturación en 90 días.
+[02:42] PROSPECT: Mira, te voy a ser honesto. Me interesa pero necesito hablarlo con mi socio.
+[02:50] SELLER: Entiendo. Y ¿qué crees que tu socio necesita saber para tomar esta decisión?
+[02:58] PROSPECT: Básicamente los números y el plan de trabajo.
+[03:04] SELLER: Perfecto. ¿Qué te parece si agendamos una llamada los tres juntos mañana a las 10? Les presento el plan detallado y resolvemos todas las dudas.
+[03:16] PROSPECT: Sí, me parece bien.
+[03:18] SELLER: Listo, les mando la invitación ahorita.

@@ -1,0 +1,236 @@
+{
+  "version": "qc41-light-0.2",
+  "language": "en",
+  "transcript_quality": {
+    "completeness": "complete",
+    "speaker_labels": true,
+    "timestamps": true,
+    "notes": [
+          "Anonymized e2e fixture fragment adapted for English demo; speaker labels reconstructed for fixture stream; first name removed."
+    ]
+  },
+  "call_summary": "The closer explored pain and cost of inaction, then jumped to a 3-pillar framework and an uncited results claim, and closed with a three-way meeting when the prospect named a partner as the decision filter.",
+  "call_outcome": {
+    "status": "follow_up",
+    "evidence": {
+      "quote": "Yeah, that works for me.",
+      "speaker": "PROSPECT",
+      "timestamp": "03:16"
+    }
+  },
+  "stage_analysis": [
+    {
+      "stage": "opening",
+      "status": "partial",
+      "evidence": [
+        {
+          "quote": "Before we get into detail, tell me a bit about your current situation.",
+          "speaker": "SELLER",
+          "timestamp": "00:00"
+        }
+      ],
+      "finding": "Warm opening with permission to discover, without a mutually agreed agenda."
+    },
+    {
+      "stage": "discovery",
+      "status": "partial",
+      "evidence": [
+        {
+          "quote": "Probably leaving about 30k a month on the table that I could be generating.",
+          "speaker": "PROSPECT",
+          "timestamp": "01:05"
+        }
+      ],
+      "finding": "Pain is quantified, but current acquisition process and the partner's role were not explored before the pitch."
+    },
+    {
+      "stage": "solution",
+      "status": "weak",
+      "evidence": [
+        {
+          "quote": "We implement a growth framework with 3 pillars.",
+          "speaker": "SELLER",
+          "timestamp": "01:45"
+        }
+      ],
+      "finding": "The solution was presented as a generic framework after an industry pattern, not as a response to an operational diagnosis."
+    },
+    {
+      "stage": "price",
+      "status": "partial",
+      "evidence": [
+        {
+          "quote": "The investment is 5 thousand dollars for the 3-month program.",
+          "speaker": "SELLER",
+          "timestamp": "02:10"
+        }
+      ],
+      "finding": "Price was anchored to the cost of inaction (30k/month), but arrived alongside an uncited promise."
+    },
+    {
+      "stage": "objection",
+      "status": "partial",
+      "evidence": [
+        {
+          "quote": "I'm interested but I need to talk it over with my partner.",
+          "speaker": "PROSPECT",
+          "timestamp": "02:42"
+        }
+      ],
+      "finding": "The closer asked what the partner needs, but did not isolate whether the partner already knows the 30k/month cost."
+    },
+    {
+      "stage": "next_step",
+      "status": "partial",
+      "evidence": [
+        {
+          "quote": "What if we schedule a call with the three of us tomorrow at 10?",
+          "speaker": "SELLER",
+          "timestamp": "03:04"
+        }
+      ],
+      "finding": "Date and participants exist, but the partner's decision criterion stays fuzzy."
+    }
+  ],
+  "strengths": [
+    {
+      "finding": "The closer quantified emotional and economic cost before selling.",
+      "evidence": {
+        "quote": "And how much would you say that's costing you? Not just in money — in quality of life.",
+        "speaker": "SELLER",
+        "timestamp": "00:52"
+      },
+      "why_keep": "That line turns vague frustration into a usable number for the rest of the call."
+    },
+    {
+      "finding": "When the partner appeared, the closer asked what information was missing instead of fighting the close.",
+      "evidence": {
+        "quote": "And what do you think your partner needs to know to make this decision?",
+        "speaker": "SELLER",
+        "timestamp": "02:50"
+      },
+      "why_keep": "Asking for the information gap is correct; it still needs to be anchored to the admitted pain."
+    }
+  ],
+  "breakpoint": {
+    "stage": "solution",
+    "evidence": {
+      "quote": "We implement a growth framework with 3 pillars.",
+      "speaker": "SELLER",
+      "timestamp": "01:45"
+    },
+    "why_it_mattered": "The prospect had just quantified 30k/month leaking. Instead of diagnosing the current process, the closer moved to a framework pitch — and later to an uncited claim about doubling revenue."
+  },
+  "objections": [
+    {
+      "label": "authority",
+      "evidence": {
+        "quote": "I'm interested but I need to talk it over with my partner.",
+        "speaker": "PROSPECT",
+        "timestamp": "02:42"
+      },
+      "interpretation": "Authority/alignment filter — not a price rejection in the transcript.",
+      "confidence": 0.94
+    },
+    {
+      "label": "price",
+      "evidence": {
+        "quote": "Sounds interesting but how much does it cost?",
+        "speaker": "PROSPECT",
+        "timestamp": "02:05"
+      },
+      "interpretation": "Price question after the pitch; not yet an affordability objection.",
+      "confidence": 0.88
+    }
+  ],
+  "mistakes": [
+    {
+      "id": "M1",
+      "category": "premature_pitch",
+      "finding": "After quantified pain, the closer presented a 3-pillar framework without mapping the current acquisition process.",
+      "evidence": {
+        "quote": "We implement a growth framework with 3 pillars.",
+        "speaker": "SELLER",
+        "timestamp": "01:45"
+      },
+      "consequence": "The solution sounds generic against a problem the prospect already put in numbers."
+    },
+    {
+      "id": "M2",
+      "category": "unsupported_claim",
+      "finding": "The closer claimed clients double revenue in 90 days without anchoring evidence in the transcript.",
+      "evidence": {
+        "quote": "On average our clients double their revenue in 90 days.",
+        "speaker": "SELLER",
+        "timestamp": "02:33"
+      },
+      "consequence": "The promise raises pressure just before the prospect deflects the decision to a partner."
+    },
+    {
+      "id": "M3",
+      "category": "objection_not_clarified",
+      "finding": "When the partner appeared, a three-way meeting was booked without confirming whether the partner already knows the 30k/month cost.",
+      "evidence": {
+        "quote": "I'm interested but I need to talk it over with my partner.",
+        "speaker": "PROSPECT",
+        "timestamp": "02:42"
+      },
+      "consequence": "The follow-up can reopen from zero if the partner does not share the diagnosis."
+    }
+  ],
+  "corrections": [
+    {
+      "mistake_id": "M1",
+      "action": "Before the framework, map the current process: how leads enter, where they drop, what they already tried.",
+      "why": "The pitch should answer a verified operational gap.",
+      "example_line": "Before the framework: today, how do leads come in and at which step does the month fall apart?"
+    },
+    {
+      "mistake_id": "M2",
+      "action": "Replace the generic promise with the number the prospect already gave.",
+      "why": "Transcript evidence is stronger than an uncited average.",
+      "example_line": "I don't need a 90-day average — you already said 30k a month. What would need to happen in 30 days to recover half?"
+    },
+    {
+      "mistake_id": "M3",
+      "action": "Isolate authority: does the partner know the cost of inaction, or is this the first time?",
+      "why": "Without that anchor, the three-person call starts cold.",
+      "example_line": "Does your partner already know about the 30k a month, or would tomorrow be the first time they put it in numbers?"
+    }
+  ],
+  "recovery_line": {
+    "text": "Before we talk price with your partner: does he already know about the 30k a month on the table, or would tomorrow be the first time you put it in numbers?",
+    "why": "Returns the conversation to admitted pain and isolates whether the partner filter is missing information or a veto."
+  },
+  "replay_plan": {
+    "opening_question": "So this call is useful: what has to change in prospecting or delivery over the next 90 days?",
+    "diagnostic_follow_up": "When you say stuck at 50k: is the bottleneck leads, closing, or delivery capacity?",
+    "objection_clarifier": "When you say you need to talk with your partner, is information missing, or did he already say they won't invest?",
+    "next_step_line": "If your partner sees the same 30k/month cost, what would you decide together Thursday at 10?"
+  },
+  "next_call_focus": [
+    "Map the current process before the framework",
+    "Anchor ROI to the prospect's number (30k/month)",
+    "Isolate what the partner already knows before the three-way"
+  ],
+  "next_call_checklist": [
+    "Agree a mutual agenda in the opening",
+    "Diagnose current acquisition before pillars",
+    "Avoid results promises without transcript evidence",
+    "Isolate authority when the partner appears",
+    "Close with decision criterion + date + owner"
+  ],
+  "confidence": {
+    "score": 0.91,
+    "reason": "Clear turns, quantified pain, price, authority objection, and a dated next step.",
+    "missing_context": [
+      "Current CRM or acquisition channel name",
+      "Partner's explicit budget",
+      "Prior tools history"
+    ]
+  },
+  "limitations": [
+    "E2e fixture fragment; may omit prior audio or later follow-up.",
+    "The analysis does not infer personality, financial capacity, or hidden motives."
+  ]
+}

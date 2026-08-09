@@ -1,0 +1,69 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+permissions:
+  contents: read
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        python-version: ["3.10", "3.11", "3.12"]
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v7
+
+      - name: Set up Python ${{ matrix.python-version }}
+        uses: actions/setup-python@v7
+        with:
+          python-version: ${{ matrix.python-version }}
+
+      - name: Run unittest suite (discoverable tests)
+        run: |
+          python3 -m unittest discover -s tests -v
+
+      - name: Validate all JSON fixtures
+        run: |
+          echo "=== Validating examples/synthetic-report.json ==="
+          python3 scripts/validate_report.py examples/synthetic-report.json
+          echo "=== Validating tests/blind-english-report.json ==="
+          python3 scripts/validate_report.py tests/blind-english-report.json
+          echo "=== Validating tests/blind-spanish-report.json ==="
+          python3 scripts/validate_report.py tests/blind-spanish-report.json
+          echo "=== Rendering examples/synthetic-report.json ==="
+          python3 scripts/render_report.py examples/synthetic-report.json > /dev/null
+          echo "=== Building prompt from examples/synthetic-call.txt ==="
+          python3 scripts/build_prompt.py examples/synthetic-call.txt > /dev/null
+
+      - name: Run IP-boundary audit
+        run: |
+          python3 scripts/audit_ip_boundary.py
+
+  node:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v7
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v6
+        with:
+          node-version: "24"
+          cache: npm
+
+      - name: Install exact dependencies
+        run: npm ci
+
+      - name: Audit production dependencies
+        run: npm audit --audit-level=moderate
+
+      - name: Run Node CLI smoke tests
+        run: npm test

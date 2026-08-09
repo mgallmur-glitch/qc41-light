@@ -1,0 +1,9 @@
+[00:00] ASESOR: ¡Hola! ¿Cómo va tu día?
+[00:08] PROSPECTO: Bien. Tengo 20 minutos.
+[00:15] ASESOR: Genial… construimos esto para equipos de ventas.
+[00:30] PROSPECTO: ¿Qué problema resuelve primero?
+[00:38] ASESOR: Muchas cosas: coaching, CRM, WhatsApp, lo que sea.
+[00:55] PROSPECTO: Necesito un caso de uso primario.
+[01:05] ASESOR: Déjame clickear un rato.
+[01:18] PROSPECTO: Mejor reagendamos con agenda.
+[01:28] ASESOR: Ok.

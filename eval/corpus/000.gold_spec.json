@@ -1,0 +1,25 @@
+{
+  "id": "000",
+  "expected_breakpoint_stage": "discovery",
+  "accepted_breakpoint_stages": [
+    "solution",
+    "price"
+  ],
+  "expected_outcome": "follow_up",
+  "accepted_outcomes": [
+    "no_decision"
+  ],
+  "expected_mistake_categories": [
+    "premature_pitch",
+    "objection_not_clarified",
+    "vague_next_step"
+  ],
+  "gold_recovery_must_include_concepts": [
+    "adopt",
+    "discount",
+    "failed"
+  ],
+  "require_recovery_line": true,
+  "min_mistakes": 3,
+  "min_corrections": 3
+}

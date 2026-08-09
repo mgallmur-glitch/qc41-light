@@ -1,0 +1,8 @@
+[00:00] SELLER: Pricing starts at $500/mo. Can you approve this week?
+[00:14] PROSPECT: We just started evaluating. I have not seen a workflow demo.
+[00:28] SELLER: Spots are limited for onboarding this month.
+[00:40] PROSPECT: That feels rushed.
+[00:48] SELLER: If you wait, implementation slips to Q4 and you lose another quarter.
+[01:05] PROSPECT: I need my partner on the call.
+[01:14] SELLER: Bring them tomorrow or the discount expires.
+[01:25] PROSPECT: I will pass for now.

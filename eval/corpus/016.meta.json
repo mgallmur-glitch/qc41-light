@@ -1,0 +1,17 @@
+{
+  "id": "016",
+  "language": "es",
+  "failure_mode": "objection_not_clarified",
+  "expected_breakpoint_stage": "objection",
+  "expected_outcome": "follow_up",
+  "expected_mistake_categories": [
+    "objection_not_clarified",
+    "pressure",
+    "vague_next_step"
+  ],
+  "gold_recovery_must_include_concepts": [
+    "aclarar",
+    "siguiente paso",
+    "adopción"
+  ]
+}

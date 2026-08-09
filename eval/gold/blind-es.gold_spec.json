@@ -1,0 +1,22 @@
+{
+  "id": "blind-es",
+  "expected_breakpoint_stage": "objection",
+  "accepted_breakpoint_stages": ["price", "decision", "next_step"],
+  "expected_outcome": "follow_up",
+  "accepted_outcomes": ["no_decision"],
+  "expected_mistake_categories": [
+    "objection_not_clarified",
+    "premature_pitch",
+    "vague_next_step"
+  ],
+  "gold_recovery_must_include_concepts": [
+    "jefe de ventas",
+    "adop",
+    "propuesta"
+  ],
+  "require_recovery_line": true,
+  "min_mistakes": 3,
+  "min_corrections": 3,
+  "aligned_with": "tests/blind-spanish-report.json",
+  "notes": "Hand-authored gold for the Spanish blind fixture. Reference reports should score ~90+."
+}

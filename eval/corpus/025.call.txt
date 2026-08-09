@@ -1,0 +1,6 @@
+[00:00] SELLER: What is breaking in your onboarding today?
+[00:10] PROSPECT: New hires take eight weeks to ramp and still miss discovery questions.
+[00:22] SELLER: Speaking of questions, look at this pricing calculator on screen.
+[00:34] PROSPECT: We were still on the ramp problem.
+[00:40] SELLER: Right, and the calculator shows ROI once they ramp faster.
+[00:52] PROSPECT: You skipped confirming the problem. Email me later.

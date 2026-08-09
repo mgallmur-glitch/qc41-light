@@ -1,0 +1,22 @@
+{
+  "id": "blind-en",
+  "expected_breakpoint_stage": "proof",
+  "accepted_breakpoint_stages": ["solution", "objection", "next_step"],
+  "expected_outcome": "follow_up",
+  "accepted_outcomes": ["no_decision"],
+  "expected_mistake_categories": [
+    "premature_pitch",
+    "poor_fit_not_addressed",
+    "vague_next_step"
+  ],
+  "gold_recovery_must_include_concepts": [
+    "JobNimbus",
+    "proof",
+    "send"
+  ],
+  "require_recovery_line": true,
+  "min_mistakes": 3,
+  "min_corrections": 3,
+  "aligned_with": "tests/blind-english-report.json",
+  "notes": "Hand-authored gold for the English blind fixture. Reference reports should score ~90+."
+}

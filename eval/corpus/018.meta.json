@@ -1,0 +1,17 @@
+{
+  "id": "018",
+  "language": "es",
+  "failure_mode": "pressure",
+  "expected_breakpoint_stage": "price",
+  "expected_outcome": "lost",
+  "expected_mistake_categories": [
+    "pressure",
+    "objection_not_clarified",
+    "premature_pitch"
+  ],
+  "gold_recovery_must_include_concepts": [
+    "aclarar",
+    "siguiente paso",
+    "adopción"
+  ]
+}

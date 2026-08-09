@@ -1,0 +1,9 @@
+[00:00] SELLER: Thanks for joining. We help small agencies automate follow-up. Let me show you the dashboard.
+[00:12] PROSPECT: Sure, but I mostly wanted to understand whether this works with our current CRM.
+[00:21] SELLER: It does a lot more than CRM integration. We have AI scoring, sequences, analytics and coaching.
+[00:38] PROSPECT: Okay. We tried an automation tool last year and the team stopped using it.
+[00:46] SELLER: This is different because our AI is much better. The plan is $1,500 to set up and $500 per month.
+[01:01] PROSPECT: That is more than I expected. I need to think about it.
+[01:08] SELLER: If you sign today I can reduce setup by twenty percent.
+[01:16] PROSPECT: Send me something and I will review it.
+[01:21] SELLER: Great, I will send the deck.

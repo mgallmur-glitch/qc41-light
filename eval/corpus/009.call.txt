@@ -1,0 +1,8 @@
+[00:00] SELLER: Discovery looks solid — manual notes, missed follow-ups.
+[00:18] PROSPECT: Right. But the last CRM failed because reps hated the UI.
+[00:32] SELLER: Ours is beautiful. You will love it.
+[00:42] PROSPECT: What is the rollout plan for ten closers?
+[00:55] SELLER: You just turn it on. Super simple.
+[01:08] PROSPECT: Who trains managers? Who owns QA in week one?
+[01:20] SELLER: Support can help. Shall we talk pricing?
+[01:32] PROSPECT: Not until rollout is concrete.

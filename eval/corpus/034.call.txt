@@ -1,0 +1,8 @@
+[00:00] ASESOR: Antes de entrar: paquetes 497, 997 y 2497.
+[00:16] PROSPECTO: Todavía no sé qué estoy comprando.
+[00:25] ASESOR: El mid es el más popular.
+[00:36] PROSPECTO: ¿Qué cambia en mi reunión semanal de coaching?
+[00:48] ASESOR: Todo. IA. Automatización. Escala.
+[01:00] PROSPECTO: Es vago. Además estamos en CRM-34.
+[01:12] ASESOR: La integración es fácil. ¿Descuento anual?
+[01:24] PROSPECTO: Mándame info. Hoy no decido.

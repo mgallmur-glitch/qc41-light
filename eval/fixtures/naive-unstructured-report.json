@@ -1,0 +1,173 @@
+{
+  "version": "qc41-light-0.2",
+  "language": "en",
+  "transcript_quality": {
+    "completeness": "partial",
+    "speaker_labels": true,
+    "timestamps": false,
+    "notes": ["Unstructured naive baseline for leaderboard gap demo."]
+  },
+  "call_summary": "The call did not go well and the seller should improve overall communication quality somehow.",
+  "call_outcome": {
+    "status": "won",
+    "evidence": {
+      "quote": "This quote does not appear in any transcript at all.",
+      "speaker": "SELLER",
+      "timestamp": null
+    }
+  },
+  "stage_analysis": [
+    {
+      "stage": "opening",
+      "status": "strong",
+      "evidence": [
+        {
+          "quote": "Invented opening praise with no transcript support.",
+          "speaker": "SELLER",
+          "timestamp": null
+        }
+      ],
+      "finding": "Opening seemed fine based on vibes rather than quotes."
+    },
+    {
+      "stage": "discovery",
+      "status": "strong",
+      "evidence": [
+        {
+          "quote": "Another fabricated discovery quote missing from the call.",
+          "speaker": "PROSPECT",
+          "timestamp": null
+        }
+      ],
+      "finding": "Discovery was allegedly deep without citing real lines."
+    },
+    {
+      "stage": "next_step",
+      "status": "strong",
+      "evidence": [
+        {
+          "quote": "Fabricated next-step commitment that never happened.",
+          "speaker": "SELLER",
+          "timestamp": null
+        }
+      ],
+      "finding": "Next step was supposedly clear despite no dated commitment."
+    }
+  ],
+  "strengths": [
+    {
+      "finding": "Seller sounded confident throughout the conversation overall.",
+      "evidence": {
+        "quote": "Confidence quote absent from transcript source material.",
+        "speaker": "SELLER",
+        "timestamp": null
+      },
+      "why_keep": "Confidence can help if paired with diagnosis, which this report skips."
+    },
+    {
+      "finding": "Prospect stayed on the call until the end somehow.",
+      "evidence": {
+        "quote": "Endurance quote also missing from the call text.",
+        "speaker": "PROSPECT",
+        "timestamp": null
+      },
+      "why_keep": "Attendance alone is not a transferable selling behavior."
+    }
+  ],
+  "breakpoint": {
+    "stage": "unknown",
+    "evidence": {
+      "quote": "Breakpoint invented without reading the transcript carefully.",
+      "speaker": null,
+      "timestamp": null
+    },
+    "why_it_mattered": "The report cannot locate a real failure mode so it guesses."
+  },
+  "objections": [],
+  "mistakes": [
+    {
+      "id": "M1",
+      "category": "other",
+      "finding": "Something felt off about the seller energy and pacing somehow.",
+      "evidence": {
+        "quote": "Energy critique without an exact line from the call.",
+        "speaker": "SELLER",
+        "timestamp": null
+      },
+      "consequence": "Vague critique does not produce a teachable correction."
+    },
+    {
+      "id": "M2",
+      "category": "other",
+      "finding": "Maybe pricing was discussed in a suboptimal emotional frame.",
+      "evidence": {
+        "quote": "Emotional-frame quote that is not in the transcript.",
+        "speaker": "PROSPECT",
+        "timestamp": null
+      },
+      "consequence": "Without evidence the coaching target remains unclear."
+    },
+    {
+      "id": "M3",
+      "category": "other",
+      "finding": "The ending could have been stronger in a general sense.",
+      "evidence": {
+        "quote": "Stronger ending quote fabricated for this naive baseline.",
+        "speaker": "SELLER",
+        "timestamp": null
+      },
+      "consequence": "General advice fails to change the next call behavior."
+    }
+  ],
+  "corrections": [
+    {
+      "mistake_id": "M1",
+      "action": "Be better next time and try harder overall in calls.",
+      "why": "Generic advice is easy to write and hard to execute.",
+      "example_line": "Do better."
+    },
+    {
+      "mistake_id": "M2",
+      "action": "Improve the vibe around commercial conversations somehow.",
+      "why": "Vibe coaching is not an observable sales correction.",
+      "example_line": "Sound more valuable."
+    },
+    {
+      "mistake_id": "M3",
+      "action": "Close stronger whenever possible in future meetings.",
+      "why": "Without a dated criterion this remains sloganeering.",
+      "example_line": "Close stronger."
+    }
+  ],
+  "recovery_line": {
+    "text": "Let's reconnect sometime and see where things go.",
+    "why": "This line avoids diagnosing the real failure and invents no criterion."
+  },
+  "replay_plan": {
+    "opening_question": "How are you today and how can I help in general?",
+    "diagnostic_follow_up": "Tell me more about things if you want to.",
+    "objection_clarifier": "What do you mean, in a broad sense?",
+    "next_step_line": "I will send something and we can talk later maybe."
+  },
+  "next_call_focus": [
+    "Be more confident",
+    "Improve energy",
+    "Close stronger"
+  ],
+  "next_call_checklist": [
+    "Prepare better slides",
+    "Speak with confidence",
+    "Ask some questions",
+    "Share pricing early",
+    "Send a follow-up email"
+  ],
+  "confidence": {
+    "score": 0.95,
+    "reason": "Naive baseline overstates confidence despite invented evidence quotes.",
+    "missing_context": ["Almost everything that would require reading the transcript"]
+  },
+  "limitations": [
+    "This fixture intentionally invents evidence to fail transcript grounding.",
+    "It is not a model of good QC 4.1 Light analysis."
+  ]
+}

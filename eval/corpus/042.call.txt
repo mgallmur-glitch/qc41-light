@@ -1,0 +1,9 @@
+[00:00] ASESOR: Agenda: encaje, implementación y números.
+[00:15] PROSPECTO: Bien. El presupuesto este trimestre está apretado.
+[00:28] ASESOR: Entiendo. La mayoría recupera en treinta días.
+[00:42] PROSPECTO: El proveedor anterior prometió lo mismo y falló la adopción.
+[00:55] ASESOR: Nosotros somos distintos. Onboarding white-glove.
+[01:10] PROSPECTO: Igual lo tengo que pensar.
+[01:18] ASESOR: Pensar suele ser precio — te puedo hacer 15% hoy.
+[01:32] PROSPECTO: Mándame un correo. Hoy no decido.
+[01:40] ASESOR: Listo.

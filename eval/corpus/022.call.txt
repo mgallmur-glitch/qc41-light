@@ -1,0 +1,8 @@
+[00:00] ASESOR: El discovery cuadra: notas manuales y follow-ups perdidos.
+[00:18] PROSPECTO: Sí. Pero el CRM anterior falló porque los reps odiaban la UI.
+[00:32] ASESOR: La nuestra es hermosa. Les va a encantar.
+[00:42] PROSPECTO: ¿Cuál es el plan de rollout para diez closers?
+[00:55] ASESOR: Solo lo enciendes. Súper simple.
+[01:08] PROSPECTO: ¿Quién entrena managers? ¿Quién hace QA la semana uno?
+[01:20] ASESOR: Soporte ayuda. ¿Hablamos de precio?
+[01:32] PROSPECTO: No hasta que el rollout sea concreto.

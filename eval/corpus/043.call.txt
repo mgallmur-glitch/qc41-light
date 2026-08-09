@@ -1,0 +1,8 @@
+[00:00] SELLER: Thanks for the time. What would make this useful today?
+[00:14] PROSPECT: See whether managers can review calls without listening for an hour.
+[00:30] SELLER: Yes — we surface breakpoints and recovery lines automatically.
+[00:48] PROSPECT: Interesting. We would need security review.
+[01:02] SELLER: We can handle that. I will send materials.
+[01:12] PROSPECT: Okay.
+[01:18] SELLER: Great talking. Let me know what you think.
+[01:25] PROSPECT: Sure.

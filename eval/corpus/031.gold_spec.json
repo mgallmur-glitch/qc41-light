@@ -1,0 +1,22 @@
+{
+  "id": "031",
+  "expected_breakpoint_stage": "price",
+  "accepted_breakpoint_stages": [],
+  "expected_outcome": "lost",
+  "accepted_outcomes": [],
+  "expected_mistake_categories": [
+    "pressure",
+    "objection_not_clarified",
+    "premature_pitch"
+  ],
+  "gold_recovery_must_include_concepts": [
+    "clarify",
+    "next step",
+    "adoption"
+  ],
+  "failure_mode": "pressure",
+  "require_evidence_in_transcript": true,
+  "min_mistakes": 3,
+  "min_corrections": 3,
+  "require_recovery_line": true
+}

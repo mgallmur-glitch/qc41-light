@@ -1,0 +1,86 @@
+{
+  "version": "qc41-light-eval-0.1",
+  "generated_at": "2026-07-31T03:39:44Z",
+  "corpus_size": 50,
+  "scoring": {
+    "weights": {
+      "schema_validity": 20,
+      "evidence_in_transcript": 25,
+      "breakpoint_stage": 15,
+      "outcome_status": 10,
+      "mistake_category_overlap": 15,
+      "structure_completeness": 15
+    },
+    "notes": "Evidence quotes must appear as substrings of the transcript. No proprietary QC taxonomies or formulas are used."
+  },
+  "entries": [
+    {
+      "name": "qc41-light-reference",
+      "description": "Official fixtures: synthetic EN + blind ES/EN reports",
+      "average_score": 100.0,
+      "scores": [
+        {
+          "fixture": "examples/synthetic-report.json",
+          "score": 100.0,
+          "breakdown": {
+            "schema_validity": 20.0,
+            "evidence_in_transcript": 25.0,
+            "breakpoint_stage": 15.0,
+            "outcome_status": 10.0,
+            "mistake_category_overlap": 15.0,
+            "structure_completeness": 15.0
+          }
+        },
+        {
+          "fixture": "tests/blind-spanish-report.json",
+          "score": 100.0,
+          "breakdown": {
+            "schema_validity": 20.0,
+            "evidence_in_transcript": 25.0,
+            "breakpoint_stage": 15.0,
+            "outcome_status": 10.0,
+            "mistake_category_overlap": 15.0,
+            "structure_completeness": 15.0
+          }
+        },
+        {
+          "fixture": "tests/blind-english-report.json",
+          "score": 100.0,
+          "breakdown": {
+            "schema_validity": 20.0,
+            "evidence_in_transcript": 25.0,
+            "breakpoint_stage": 15.0,
+            "outcome_status": 10.0,
+            "mistake_category_overlap": 15.0,
+            "structure_completeness": 15.0
+          }
+        }
+      ],
+      "notes": "Hand-authored gold_specs; expect ~90+ average."
+    },
+    {
+      "name": "naive-unstructured",
+      "description": "Intentionally weak report with invented evidence quotes",
+      "average_score": 32.0,
+      "scores": [
+        {
+          "fixture": "eval/fixtures/naive-unstructured-report.json",
+          "score": 32.0,
+          "breakdown": {
+            "schema_validity": 20.0,
+            "evidence_in_transcript": 0.0,
+            "breakpoint_stage": 0.0,
+            "outcome_status": 0.0,
+            "mistake_category_overlap": 0.0,
+            "structure_completeness": 12.0
+          }
+        }
+      ],
+      "notes": "Shows the gap when evidence grounding and categories fail."
+    }
+  ],
+  "corpus_anchor": {
+    "fixture": "examples/synthetic-report.json vs corpus/000",
+    "score": 100.0
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "id": "017",
+  "expected_breakpoint_stage": "next_step",
+  "accepted_breakpoint_stages": [],
+  "expected_outcome": "follow_up",
+  "accepted_outcomes": [
+    "follow_up",
+    "no_decision"
+  ],
+  "expected_mistake_categories": [
+    "vague_next_step",
+    "weak_agenda",
+    "missed_follow_up"
+  ],
+  "gold_recovery_must_include_concepts": [
+    "clarify",
+    "next step",
+    "adoption"
+  ],
+  "failure_mode": "vague_next_step",
+  "require_evidence_in_transcript": true,
+  "min_mistakes": 3,
+  "min_corrections": 3,
+  "require_recovery_line": true
+}

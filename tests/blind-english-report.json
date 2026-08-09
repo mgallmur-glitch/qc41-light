@@ -1,0 +1,309 @@
+{
+  "version": "qc41-light-0.2",
+  "language": "en",
+  "transcript_quality": {
+    "completeness": "complete",
+    "speaker_labels": true,
+    "timestamps": true,
+    "notes": [
+      "Transcript runs continuously from [00:00] to [02:37] with no gaps, suggesting the full call is captured.",
+      "Speaker labels (CONSULTANT/OWNER) and per-line timestamps are present throughout, supporting high-confidence evidence attribution.",
+      "The call is short in content (~2.5 minutes); discovery depth is naturally bounded by the brief runtime."
+    ]
+  },
+  "call_summary": "A consultant pitched an AI lead-response 'employee' to the owner of a Houston roofing company. The call opened with a clear agenda and some useful discovery about the owner's manual intake process (office manager calling leads back, no standard follow-up, ~80 leads/month). The consultant prematurely linked the findings to the solution before quantifying the business impact, then introduced price ($3,000 setup, 14-day timeline). The owner raised trust objections rooted in a prior failed automation integration and demanded proof the product works with JobNimbus. The consultant declined to share client proof and ended with a vague email follow-up, leaving the buyer's stated criterion unresolved.",
+  "call_outcome": {
+    "status": "follow_up",
+    "evidence": {
+      "quote": "Let me see what I can find and email you.",
+      "speaker": "CONSULTANT",
+      "timestamp": "02:32"
+    }
+  },
+  "stage_analysis": [
+    {
+      "stage": "opening",
+      "status": "strong",
+      "evidence": [
+        {
+          "quote": "We have 25 minutes. I would like to understand your current intake process, then decide together whether a walkthrough is useful. Does that work?",
+          "speaker": "CONSULTANT",
+          "timestamp": "00:00"
+        }
+      ],
+      "finding": "The consultant respected the prospect's time, stated a clear purpose, and secured agreement before proceeding."
+    },
+    {
+      "stage": "agenda",
+      "status": "strong",
+      "evidence": [
+        {
+          "quote": "I would like to understand your current intake process, then decide together whether a walkthrough is useful.",
+          "speaker": "CONSULTANT",
+          "timestamp": "00:00"
+        }
+      ],
+      "finding": "A two-step roadmap (understand intake, then jointly decide on a walkthrough) was set explicitly and accepted by the owner."
+    },
+    {
+      "stage": "discovery",
+      "status": "partial",
+      "evidence": [
+        {
+          "quote": "What happens after a form comes in?",
+          "speaker": "CONSULTANT",
+          "timestamp": "00:27"
+        },
+        {
+          "quote": "How many leads would you say wait more than an hour?",
+          "speaker": "CONSULTANT",
+          "timestamp": "00:44"
+        }
+      ],
+      "finding": "Good process questions surfaced the speed and consistency gap, but quantification stalled ('I do not know. Maybe half') and the consultant did not probe the resulting business cost."
+    },
+    {
+      "stage": "problem",
+      "status": "partial",
+      "evidence": [
+        {
+          "quote": "So the gap is speed and consistent follow-up.",
+          "speaker": "CONSULTANT",
+          "timestamp": "01:14"
+        }
+      ],
+      "finding": "The consultant correctly named the problem, but asserted it rather than having the owner confirm the cost, then immediately moved to the solution."
+    },
+    {
+      "stage": "impact",
+      "status": "not_observed",
+      "evidence": [],
+      "finding": "No attempt was made to translate the speed gap into lost leads, lost revenue, or competitive risk before pitching; this is a conspicuously absent stage."
+    },
+    {
+      "stage": "solution",
+      "status": "partial",
+      "evidence": [
+        {
+          "quote": "Our AI employee can respond immediately, qualify the lead and update your CRM.",
+          "speaker": "CONSULTANT",
+          "timestamp": "01:14"
+        }
+      ],
+      "finding": "The solution was introduced before impact was established, making the pitch feel premature and unconnected to a quantified pain."
+    },
+    {
+      "stage": "price",
+      "status": "strong",
+      "evidence": [
+        {
+          "quote": "We can set this up in fourteen days. The setup is three thousand dollars.",
+          "speaker": "CONSULTANT",
+          "timestamp": "01:51"
+        }
+      ],
+      "finding": "Price and timeline were stated directly and without hedging, which is appropriate once the buyer is engaged."
+    },
+    {
+      "stage": "proof",
+      "status": "weak",
+      "evidence": [
+        {
+          "quote": "I cannot share client systems, but I can send you a proposal.",
+          "speaker": "CONSULTANT",
+          "timestamp": "02:17"
+        }
+      ],
+      "finding": "When explicitly asked for a roofing client reference, the consultant deflected to a proposal and offered no substitute proof, which directly triggered the owner's final resistance."
+    },
+    {
+      "stage": "objection",
+      "status": "partial",
+      "evidence": [
+        {
+          "quote": "The last automation company took six weeks and never finished the integration.",
+          "speaker": "OWNER",
+          "timestamp": "01:41"
+        },
+        {
+          "quote": "I am not paying three grand before I see it work.",
+          "speaker": "OWNER",
+          "timestamp": "02:00"
+        }
+      ],
+      "finding": "Multiple objections appeared (trust, price, proof), but the consultant did not clarify or isolate any of them before answering."
+    },
+    {
+      "stage": "decision",
+      "status": "not_observed",
+      "evidence": [],
+      "finding": "No decision was requested or offered; the call ended without any commitment from the owner."
+    },
+    {
+      "stage": "next_step",
+      "status": "weak",
+      "evidence": [
+        {
+          "quote": "Let me see what I can find and email you.",
+          "speaker": "CONSULTANT",
+          "timestamp": "02:32"
+        }
+      ],
+      "finding": "The only next step was an unspecified email with no deadline, no calendar hold, and no tie to the owner's stated buying criterion."
+    }
+  ],
+  "strengths": [
+    {
+      "finding": "The consultant opened with a disciplined, time-respecting agenda that secured the owner's agreement before discovery.",
+      "evidence": {
+        "quote": "We have 25 minutes. I would like to understand your current intake process, then decide together whether a walkthrough is useful. Does that work?",
+        "speaker": "CONSULTANT",
+        "timestamp": "00:00"
+      },
+      "why_keep": "Opening with a clear, agreed roadmap reduces resistance and gives the seller a legitimate anchor to return to if the call drifts."
+    },
+    {
+      "finding": "Discovery questions targeted the actual mechanics of the owner's intake process and surfaced a concrete, useful data point (~80 leads/month).",
+      "evidence": {
+        "quote": "What happens after a form comes in?",
+        "speaker": "CONSULTANT",
+        "timestamp": "00:27"
+      },
+      "why_keep": "Process-level questions produced real diagnostic information that, if pursued, would have built a strong case for the solution."
+    }
+  ],
+  "breakpoint": {
+    "stage": "proof",
+    "evidence": {
+      "quote": "I cannot share client systems, but I can send you a proposal.",
+      "speaker": "CONSULTANT",
+      "timestamp": "02:17"
+    },
+    "why_it_mattered": "The owner had just asked for exactly the evidence that would de-risk the decision ('Can you show me a roofing client using it?'). Refusing it and substituting a proposal the owner immediately rejected ('A proposal will not answer that') collapsed the call's momentum and converted a solvable trust question into a stall."
+  },
+  "objections": [
+    {
+      "label": "trust",
+      "evidence": {
+        "quote": "The last automation company took six weeks and never finished the integration.",
+        "speaker": "OWNER",
+        "timestamp": "01:41"
+      },
+      "interpretation": "The owner is flagging prior implementation failure as the real risk; the objection is about delivery credibility, not the product category itself.",
+      "confidence": 0.9
+    },
+    {
+      "label": "price",
+      "evidence": {
+        "quote": "I am not paying three grand before I see it work.",
+        "speaker": "OWNER",
+        "timestamp": "02:00"
+      },
+      "interpretation": "The price is conditional, not absolute: the owner ties payment to demonstrated proof, so the lever is proof rather than discounting.",
+      "confidence": 0.95
+    },
+    {
+      "label": "trust",
+      "evidence": {
+        "quote": "I need proof it works with JobNimbus.",
+        "speaker": "OWNER",
+        "timestamp": "02:25"
+      },
+      "interpretation": "The buyer restated the buying criterion explicitly: working integration with their specific tool. This is a solvable proof request, not a hard no.",
+      "confidence": 0.9
+    }
+  ],
+  "mistakes": [
+    {
+      "id": "M1",
+      "category": "premature_pitch",
+      "finding": "The consultant moved from a named problem directly into the solution without ever quantifying the business cost of the speed gap.",
+      "evidence": {
+        "quote": "So the gap is speed and consistent follow-up. Our AI employee can respond immediately, qualify the lead and update your CRM.",
+        "speaker": "CONSULTANT",
+        "timestamp": "01:14"
+      },
+      "consequence": "Because the owner never felt the dollar cost of slow follow-up, the solution appeared optional and the later price ($3,000) landed without an established return."
+    },
+    {
+      "id": "M2",
+      "category": "poor_fit_not_addressed",
+      "finding": "When the owner revealed they use JobNimbus rather than a generic CRM, the consultant dismissed the specific fit concern with a blanket claim.",
+      "evidence": {
+        "quote": "That is fine, we can integrate with almost anything.",
+        "speaker": "CONSULTANT",
+        "timestamp": "01:35"
+      },
+      "consequence": "The unsupported generality ('almost anything') failed to address the owner's tool-specific risk and directly seeded the later trust objection about the previous vendor's failed integration."
+    },
+    {
+      "id": "M3",
+      "category": "vague_next_step",
+      "finding": "The call closed with an undefined email promise and no time-bound commitment tied to the owner's stated criterion.",
+      "evidence": {
+        "quote": "Let me see what I can find and email you.",
+        "speaker": "CONSULTANT",
+        "timestamp": "02:32"
+      },
+      "consequence": "With no deadline and no calendar hold, the buyer's explicit proof requirement is left unresolved and the deal has no forced next interaction."
+    }
+  ],
+  "corrections": [
+    {
+      "mistake_id": "M1",
+      "action": "Before introducing the solution, quantify the cost of the problem with one impact question that converts the gap into lost revenue.",
+      "why": "Anchoring the pain in dollars makes the price feel like an investment rather than a cost and gives the owner a reason to want the solution.",
+      "example_line": "Of those eighty leads a month, if half wait over an hour, how many would you guess end up hiring another roofer before you reach them?"
+    },
+    {
+      "mistake_id": "M2",
+      "action": "When a prospect names a specific tool, acknowledge it by name and ask about their integration history on that platform before claiming compatibility.",
+      "why": "Specificity signals competence and surfaces the real risk (prior failed integration) early enough to address it with proof rather than a slogan.",
+      "example_line": "Got it, JobNimbus. Have you tried connecting anything else to it before, or would this be your first automation on that platform?"
+    },
+    {
+      "mistake_id": "M3",
+      "action": "Replace open-ended email promises with a specific, time-bound deliverable plus a calendar hold tied to the buyer's stated buying criterion.",
+      "why": "A concrete next step with a deadline converts a soft maybe into a measurable commitment and keeps the deal from drifting into silence.",
+      "example_line": "I will send you a JobNimbus-specific example by Thursday noon, and let's block fifteen minutes on Friday to walk through it together, fair?"
+    }
+  ],
+  "recovery_line": {
+    "text": "Before I send anything, help me bring the right proof: what specifically would you need to see working inside JobNimbus to feel confident moving forward?",
+    "why": "It converts an open-ended email promise into a buyer-defined success criterion, reopens diagnosis, and gives the next touch a concrete purpose the owner has agreed to."
+  },
+  "replay_plan": {
+    "opening_question": "Before I show you anything, could you walk me through what happens today from the moment a new lead comes in until someone actually reaches them?",
+    "diagnostic_follow_up": "Of the roughly eighty leads a month you get, how many do you estimate you lose to a competitor because they weren't called fast enough?",
+    "objection_clarifier": "When you say the last automation company never finished, what specifically did they fail to deliver? That tells me exactly what I need to prove.",
+    "next_step_line": "I will bring a JobNimbus-specific example by Thursday noon and we will put fifteen minutes on the calendar Friday to review it together, sound good?"
+  },
+  "next_call_focus": [
+    "Quantify the dollar cost of the speed-to-lead gap before pitching the solution",
+    "Prepare a JobNimbus-specific proof point in advance of the next call",
+    "Tie every next step to the buyer's explicitly stated buying criterion"
+  ],
+  "next_call_checklist": [
+    "Confirm the prospect's exact tool stack by name (e.g., JobNimbus) before claiming integrations",
+    "Quantify the business impact of the speed-to-lead gap in lost leads or revenue",
+    "Have a same-industry or same-tool proof example ready to show on the call",
+    "Set a specific, time-bound next step with a calendar hold before ending the call",
+    "Ask the prospect to define their buying criterion explicitly so proof can be targeted"
+  ],
+  "confidence": {
+    "score": 0.85,
+    "reason": "The transcript is complete, with consistent speaker labels and timestamps and a clear offer context, so evidence attribution is reliable; confidence is bounded only by the short runtime and the absence of relationship and budget-authority context.",
+    "missing_context": [
+      "Prior relationship or call history between consultant and owner is unknown",
+      "Owner's decision authority and total budget beyond the stated $3,000 are unstated",
+      "The consultant's actual JobNimbus integration experience is not evidenced in the transcript",
+      "No information on how the lead was sourced or the owner's intent signal pre-call"
+    ]
+  },
+  "limitations": [
+    "The call is short (~2.5 minutes of spoken content), so discovery and impact stages are naturally thin.",
+    "No prior call history or relationship context was provided, so trust baseline is inferred only from this transcript.",
+    "The owner's budget authority and willingness beyond the stated $3,000 are not evidenced.",
+    "Whether the consultant's company can actually demonstrate a JobNimbus integration is unknown from this call alone."
+  ]
+}

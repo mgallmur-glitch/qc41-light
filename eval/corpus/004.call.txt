@@ -1,0 +1,8 @@
+[00:00] ASESOR: ¿Qué haría útil esta llamada?
+[00:14] PROSPECTO: Ver si los managers pueden revisar llamadas sin escuchar una hora.
+[00:30] ASESOR: Sí — marcamos el punto de ruptura y la línea de recuperación.
+[00:48] PROSPECTO: Interesante. Necesitaríamos revisión de seguridad.
+[01:02] ASESOR: Lo manejamos. Te mando materiales.
+[01:12] PROSPECTO: Ok.
+[01:18] ASESOR: Buen chat. Me dices qué te parece.
+[01:25] PROSPECTO: Sí.

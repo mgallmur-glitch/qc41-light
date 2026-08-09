@@ -1,0 +1,12 @@
+# Anonymized e2e fixture fragment for public demo. Public-safe — no names/phones/emails.
+# Benchmark / example transcript. Anonymized (first names removed).
+[00:00] SELLER: Hola, gusto en saludarte. ¿Cómo te ha ido con los números este mes en tu agencia?
+[00:08] PROSPECT: Hola, bien. Bueno, a medias. Facturamos unos $3,000 pero queremos llegar a $15,000 y nos sentimos un poco estancados.
+[00:18] SELLER: Entiendo perfectamente. Estancarse en $3k es muy común cuando el sistema de prospección no es predecible. ¿Qué es lo que sientes que te frena?
+[00:28] PROSPECT: Creo que no tenemos tiempo. Estoy todo el día en el delivery de los clientes. Además, me da un poco de miedo meter un sistema complejo que no entienda y terminar perdiendo el control o el dinero. ¿Es caro implementar esto?
+[00:42] SELLER: Es una preocupación muy lógica. El miedo a perder el control en sistemas complejos es real. Pero nuestro engine de contexto corre 100% en local y la primera fase se configura en menos de 2 horas. Con respecto a los $3k, si sigues así 6 meses más, ¿cuánto te costará no tomar acción?
+[00:58] PROSPECT: Uff, serían casi $72,000 en facturación perdida... suena fuerte visto así.
+[01:06] SELLER: Exactamente, ese es el costo de inacción. Si resolvemos la prospección hoy, ¿crees que tú y tu socio tendrían el ancho de banda para recibir 10 llamadas semanales?
+[01:16] PROSPECT: Sí, si automatizamos la prospección sí tendríamos tiempo. Pero necesito hablarlo con mi socio para estar 100% seguros de dar el paso.
+[01:26] SELLER: Claro, entiendo que coordinar con tu socio es vital para la alineación operativa. ¿Qué pasaría si organizamos una breve sesión de 15 minutos entre los tres mañana y les muestro el flujo exacto de datos e infraestructura para que despejen cualquier duda técnica?
+[01:40] PROSPECT: Me parece genial, eso nos daría mucha tranquilidad de que no va a ser otro sistema spaghetti. Hagamos la llamada mañana a las 4.

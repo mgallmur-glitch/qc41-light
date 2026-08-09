@@ -1,0 +1,22 @@
+# bytecode / caches
+__pycache__/
+**/__pycache__/
+*.py[cod]
+*.tgz
+qc41-light-*.tgz
+
+# local / secret
+.env
+*.key
+*.pem
+.DS_Store
+
+# tooling
+node_modules/
+coverage/
+playground/
+.eval-cache/
+dist/
+.git/
+.github/
+RELEASE_NOTES_*.md

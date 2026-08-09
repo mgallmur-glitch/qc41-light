@@ -1,0 +1,6 @@
+[00:00] CONSULTOR: Te presento el plan enterprise.
+[00:10] PROSPECTO: Somos un equipo de tres. Solo necesitamos sync liviano.
+[00:22] CONSULTOR: Enterprise igual sirve. Mínimo dieciocho mil al año.
+[00:34] PROSPECTO: No encaja.
+[00:38] CONSULTOR: Firmen el piloto hoy y crecen después.
+[00:48] PROSPECTO: Sáquenme del pipeline, por favor.

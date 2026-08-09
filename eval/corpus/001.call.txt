@@ -1,0 +1,9 @@
+[00:00] SELLER: Thanks for joining. Let me share my screen and walk the roadmap.
+[00:18] PROSPECT: I mainly wanted to know if this works with AcmeCRM-01.
+[00:30] SELLER: Absolutely, and we also have AI scoring, sequences, analytics, coaching, and Slack alerts.
+[00:55] PROSPECT: Okay… we tried a tool last year and the team abandoned it.
+[01:10] SELLER: Ours is different because the AI is much better. Setup is $2,000 then $600 a month.
+[01:28] PROSPECT: That is more than expected. I need to think.
+[01:36] SELLER: If you sign this week I can discount setup twenty percent.
+[01:48] PROSPECT: Send me a deck and I will review it.
+[01:55] SELLER: Perfect, sending now.
