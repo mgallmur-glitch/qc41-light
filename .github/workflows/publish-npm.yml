@@ -23,7 +23,7 @@ jobs:
       - run: npm test
       - name: Publish to GitHub Packages
         env:
-          NODE_AUTH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          NODE_AUTH_TOKEN: ${{ secrets.GH_PACKAGES_PAT }}
         run: |
           set -euo pipefail
           NAME="$(node -p "require('./package.json').name")"
