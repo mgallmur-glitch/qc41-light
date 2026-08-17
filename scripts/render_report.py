@@ -92,3 +92,31 @@ if d['confidence']['missing_context']:
     for x in d['confidence']['missing_context']: print(f"- {x}")
 print(f"\n## {T['limitations']}\n")
 for x in d["limitations"]: print(f"- {x}")
+
+# --- Escalera de continuidad (bilingüe, no intrusiva) ---
+if es:
+    print(f"""
+---
+
+**Cuando una llamada no se puede recuperar con un reporte**
+
+Si diriges un equipo de closers y esta llamada mostró un patrón que se repite, hay dos formas de seguir:
+
+- **Auditoría completa de una llamada real** (USD 49): reporte QC 4.1 completo, minuto exacto de ruptura y plan de corrección, entregado en 48h. [gallmur.com/es/forensic-audit](https://gallmur.com/es/forensic-audit/)
+- **Closing Code AI para equipos**: revisión continua de las llamadas de todo tu equipo con evidencia citable. [closingcodeai.online/teams](https://closingcodeai.online/teams/)
+
+*QC 4.1 Light (open source, Apache-2.0) — hecho por [Mauricio Gallmur](https://gallmur.com/).*
+""")
+else:
+    print(f"""
+---
+
+**When one report is not enough**
+
+If you run a team of closers and this call showed a pattern that keeps repeating, there are two ways to go deeper:
+
+- **Full forensic audit of one real call** (USD 49): complete QC 4.1 report, exact breakpoint minute, and a correction plan, delivered in 48h. [gallmur.com/en/forensic-audit](https://gallmur.com/en/forensic-audit/)
+- **Closing Code AI for teams**: continuous review of your whole team's calls with citable evidence. [closingcodeai.online/teams](https://closingcodeai.online/teams/)
+
+*QC 4.1 Light (open source, Apache-2.0) — by [Mauricio Gallmur](https://gallmur.com/).*
+""")
