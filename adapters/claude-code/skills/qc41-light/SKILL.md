@@ -1,6 +1,6 @@
 ---
 name: qc41-light
-description: "Use when diagnosing one sales-call transcript with evidence. Returns QC 4.1 Light JSON."
+description: "Use when analyzing, auditing, reviewing or diagnosing a sales call transcript — find where the deal was lost, closer mistakes, objections missed, and a recovery line. Returns an evidence-backed QC 4.1 Light report with exact quotes, breakpoint minute, corrections, and a speakable recovery script. Works for high-ticket closers, sales managers auditing rep calls, and owners reviewing their sales team's calls."
 version: 0.3.5
 ---
 
