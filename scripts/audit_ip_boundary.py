@@ -40,6 +40,20 @@ EXEMPT_FILES = {
     "tests/test_audit_ip_boundary.py",
 }
 
+# ── Commercial-funnel allowlist: files where the continuity-ladder URLs
+#    (gallmur.com forensic-audit / closingcodeai.online/teams) are deliberate
+#    upgrade pointers, not GTM copy leaks.  The URLs still may not appear
+#    anywhere else in the package.
+GTM_ALLOWLIST = {
+    "SKILL.md",
+    "adapters/claude-code/skills/qc41-light/SKILL.md",
+    "adapters/codex/skills/qc41-light/SKILL.md",
+    "scripts/render_report.py",
+    ".github/ISSUE_TEMPLATE/config.yml",
+    "README.md",
+    "README.es.md",
+}
+
 # ── Binary / generated directories to never scan.
 SKIP_DIRS = {
     ".git",
@@ -238,17 +252,19 @@ def scan_file(rel: str, content: str) -> list[dict]:
                     "detail": "proprietary terminology must not appear",
                 }
             )
-        # Commercial GTM / upgrade-ladder copy
-        for m in _GTM_RE.finditer(line):
-            violations.append(
-                {
-                    "type": "prohibited_gtm",
-                    "file": rel,
-                    "line": i,
-                    "match": m.group(0),
-                    "detail": "commercial or non-OSS copy must not appear in this repository",
-                }
-            )
+        # Commercial GTM / upgrade-ladder copy (allowlisted files may carry
+        # the two deliberate upgrade URLs — anywhere else is a leak)
+        if rel not in GTM_ALLOWLIST:
+            for m in _GTM_RE.finditer(line):
+                violations.append(
+                    {
+                        "type": "prohibited_gtm",
+                        "file": rel,
+                        "line": i,
+                        "match": m.group(0),
+                        "detail": "commercial or non-OSS copy must not appear in this repository",
+                    }
+                )
         # Prohibited paths / infrastructure
         for m in _PATH_RE.finditer(line):
             violations.append(
