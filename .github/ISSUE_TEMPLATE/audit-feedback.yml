@@ -1,0 +1,29 @@
+name: Resultado de auditoría (feedback)
+description: Comparte qué encontró la skill en una llamada real
+labels: ["feedback", "audit-result"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ¿La skill encontró algo útil en tu llamada? Cuéntame — esto me ayuda a mejorar el diagnóstico y me muestra qué casos reales está resolviendo.
+  - type: input
+    id: resultado
+    attributes:
+      label: ¿Qué encontró el diagnóstico?
+      placeholder: "Ej: detectó el breakpoint en la fase de objeciones, la recovery line sirvió"
+    validations:
+      required: true
+  - type: dropdown
+    id: rol
+    attributes:
+      label: Tu rol
+      options:
+        - Closer (yo mismo vendo)
+        - Dueño de equipo de closers
+        - Sales manager
+        - Otro
+  - type: input
+    id: equipo
+    attributes:
+      label: ¿Cuántos closers auditaste / cuántos tiene tu equipo?
+      placeholder: "Ej: 1 llamada / equipo de 5"

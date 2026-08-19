@@ -78,7 +78,11 @@ Auditoría del transcript · mapa de etapas · dos fortalezas · un breakpoint �
 
 ## Privacidad
 
-Sin telemetría en este paquete. CLI/MCP es BYOK local (claves en tu entorno). Redacta llamadas reales antes de enviar transcripts a cualquier modelo — `docs/PRIVACY.md`.
+Sin telemetría por defecto. CLI/MCP es BYOK local (claves en tu entorno). El footer del reporte renderizado incluye un ping anónimo de uso **desactivado salvo que** definas `QC41_LIGHT_PING_URL` — envía solo idioma + versión de la skill, cero transcript, cero PII. Redacta llamadas reales antes de enviar transcripts a cualquier modelo — `docs/PRIVACY.md`.
+
+## ¿Encontró algo real?
+
+Si esta skill detectó un breakpoint que tus closers no veían, déjale una ⭐ — le dice a otros equipos de ventas que el diagnóstico es real. Y si quieres la versión a fondo de la misma metodología sobre una llamada tuya real: [auditoría forense, USD 49, 48h](https://gallmur.com/es/forensic-audit/?utm_source=qc41-light&utm_medium=readme&utm_campaign=forensic-49).
 
 ## Estado
 

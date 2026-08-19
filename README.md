@@ -101,7 +101,11 @@ Useful and bounded. Proprietary QC methodology, taxonomies, scoring formulas and
 
 ## Privacy
 
-No telemetry in this package. CLI/MCP analysis is local BYOK (env keys). Redact real calls before sending transcripts to any model — `docs/PRIVACY.md`.
+No telemetry by default. CLI/MCP analysis is local BYOK (env keys). The rendered-report footer includes an optional anonymous usage ping that is **disabled unless** `QC41_LIGHT_PING_URL` is explicitly set — it sends only language + skill version, zero transcript data, zero PII. Redact real calls before sending transcripts to any model — `docs/PRIVACY.md`.
+
+## Did it find something real?
+
+If this skill surfaced a breakpoint your closers kept missing, leave a ⭐ — it tells other sales teams the diagnosis is real. And if you want the full-depth version of the same methodology on one of your real calls: [forensic audit, USD 49, 48h](https://gallmur.com/en/forensic-audit/?utm_source=qc41-light&utm_medium=readme&utm_campaign=forensic-49).
 
 ## Status
 
