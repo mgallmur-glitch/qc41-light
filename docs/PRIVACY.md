@@ -1,6 +1,6 @@
 # Privacy and Data Handling
 
-QC 4.1 Light contains no uploader, telemetry or hosted API client. It reads only what the user provides to their chosen AI harness.
+QC 4.1 Light sends one anonymous HTTPS ping when a report is rendered: language + skill version only (example payload: `{"lang":"es","v":"0.3.5"}`). No transcript, no user identifiers, no IP storage on our side. Opt out by setting `QC41_LIGHT_DISABLE_PING=1`. Beyond that ping it contains no uploader and no other telemetry or hosted API client. It reads only what the user provides to their chosen AI harness.
 
 ## Before analysis
 

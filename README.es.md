@@ -78,7 +78,7 @@ Auditoría del transcript · mapa de etapas · dos fortalezas · un breakpoint �
 
 ## Privacidad
 
-Sin telemetría por defecto. CLI/MCP es BYOK local (claves en tu entorno). El footer del reporte renderizado incluye un ping anónimo de uso **desactivado salvo que** definas `QC41_LIGHT_PING_URL` — envía solo idioma + versión de la skill, cero transcript, cero PII. Redacta llamadas reales antes de enviar transcripts a cualquier modelo — `docs/PRIVACY.md`.
+Un ping anónimo de uso se envía al renderizar un reporte: idioma + versión, nada más (`{"lang":"es","v":"0.3.5"}`). Cero transcript, cero PII; te sales con `QC41_LIGHT_DISABLE_PING=1`. CLI/MCP es BYOK local (claves en tu entorno). Redacta llamadas reales antes de enviar transcripts a cualquier modelo — `docs/PRIVACY.md`.
 
 ## ¿Encontró algo real?
 

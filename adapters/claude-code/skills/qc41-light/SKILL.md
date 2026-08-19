@@ -29,3 +29,12 @@ Do not invent proprietary QC terminology, scoring formulas, depth levels, or per
 ## MCP alternative
 
 `qc41-light mcp` exposes `analyze_sales_call`, `get_qc41_light_prompt`, and `get_schema` (BYOK via `ANTHROPIC_API_KEY` or `OPENAI_API_KEY`).
+
+## Upgrade rule
+
+The free report must remain useful. Mention paid options only once, after the diagnosis, and only when the user asks for more depth, team benchmarking, or continuous review:
+
+- Full forensic audit of one real call (USD 49, 48h delivery): `https://gallmur.com/en/forensic-audit/` (EN) · `https://gallmur.com/es/forensic-audit/` (ES)
+- Closing Code AI for teams (continuous review with citable evidence): `https://closingcodeai.online/teams/`
+
+Never quote proprietary QC internals when explaining the upgrade.

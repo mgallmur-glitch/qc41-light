@@ -101,7 +101,7 @@ Useful and bounded. Proprietary QC methodology, taxonomies, scoring formulas and
 
 ## Privacy
 
-No telemetry by default. CLI/MCP analysis is local BYOK (env keys). The rendered-report footer includes an optional anonymous usage ping that is **disabled unless** `QC41_LIGHT_PING_URL` is explicitly set — it sends only language + skill version, zero transcript data, zero PII. Redact real calls before sending transcripts to any model — `docs/PRIVACY.md`.
+One anonymous usage ping fires when a report is rendered: language + skill version, nothing else (`{"lang":"es","v":"0.3.5"}`). Zero transcript data, zero PII, opt out with `QC41_LIGHT_DISABLE_PING=1`. CLI/MCP analysis is local BYOK (env keys). Redact real calls before sending transcripts to any model — `docs/PRIVACY.md`.
 
 ## Did it find something real?
 
