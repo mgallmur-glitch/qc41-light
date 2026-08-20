@@ -1,3 +1,4 @@
+import os
 import re
 import shutil
 import subprocess
@@ -84,6 +85,7 @@ class TestHermesInstallContract(unittest.TestCase):
             render = subprocess.run(
                 [sys.executable, str(install/"scripts/render_report.py"), str(report)],
                 text=True, capture_output=True,
+                env={**os.environ, "QC41_LIGHT_DISABLE_PING": "1"},
             )
             self.assertEqual(render.returncode, 0, render.stdout + render.stderr)
             self.assertIn("QC 4.1 Light", render.stdout)
