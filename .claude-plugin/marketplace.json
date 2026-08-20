@@ -4,15 +4,15 @@
     "name": "Mauricio Gallmur"
   },
   "metadata": {
-    "description": "QC 4.1 Light \u2014 evidence-first sales-call diagnosis (OSS Apache-2.0)",
-    "version": "0.3.5"
+    "description": "QC 4.1 Light — evidence-first sales-call diagnosis (OSS Apache-2.0)",
+    "version": "0.3.6"
   },
   "plugins": [
     {
       "name": "qc41-light",
       "source": "./adapters/claude-code",
       "description": "Diagnose one sales-call transcript with evidence-backed breakpoint, mistakes, and recovery line.",
-      "version": "0.3.5",
+      "version": "0.3.6",
       "author": {
         "name": "Mauricio Gallmur"
       },
