@@ -6,6 +6,7 @@ These tests use only the Python standard library so the suite runs with
 dependencies.
 """
 import copy
+import os
 import json
 import subprocess
 import sys
@@ -21,10 +22,12 @@ BUILDER = ROOT / "scripts" / "build_prompt.py"
 
 
 def run(*args: str) -> subprocess.CompletedProcess:
+    env = {**os.environ, "QC41_LIGHT_DISABLE_PING": "1"}
     return subprocess.run(
         [sys.executable, *map(str, args)],
         capture_output=True,
         text=True,
+        env=env,
     )
 
 

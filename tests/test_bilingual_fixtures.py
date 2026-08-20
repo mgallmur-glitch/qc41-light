@@ -5,6 +5,7 @@ Runs with ``python3 -m unittest discover -s tests -v``.
 Uses only the Python standard library.
 """
 import json
+import os
 import subprocess
 import sys
 import unittest
@@ -35,10 +36,12 @@ CASES = [
 
 
 def run(*args: str) -> subprocess.CompletedProcess:
+    env = {**os.environ, "QC41_LIGHT_DISABLE_PING": "1"}
     return subprocess.run(
         [sys.executable, *map(str, args)],
         capture_output=True,
         text=True,
+        env=env,
     )
 
 
