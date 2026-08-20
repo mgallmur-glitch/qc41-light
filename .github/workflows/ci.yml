@@ -33,6 +33,7 @@ jobs:
 
       - name: Validate all JSON fixtures
         run: |
+          export QC41_LIGHT_DISABLE_PING=1
           echo "=== Validating examples/synthetic-report.json ==="
           python3 scripts/validate_report.py examples/synthetic-report.json
           echo "=== Validating tests/blind-english-report.json ==="
@@ -67,4 +68,6 @@ jobs:
         run: npm audit --audit-level=moderate
 
       - name: Run Node CLI smoke tests
-        run: npm test
+        run: |
+          export QC41_LIGHT_DISABLE_PING=1
+          npm test

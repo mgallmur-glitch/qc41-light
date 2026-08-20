@@ -6,6 +6,10 @@ set -euo pipefail
 ROOT="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
 cd "$ROOT"
 
+# The offline demo renders reports; without this, demo/test runs would send
+# anonymous adoption pings meant only for real end-user renders.
+export QC41_LIGHT_DISABLE_PING=1
+
 EN_JSON="examples/synthetic-report.json"
 ES_JSON="tests/blind-spanish-report.json"
 
