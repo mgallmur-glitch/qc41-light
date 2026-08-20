@@ -28,6 +28,7 @@ jobs:
 
       - name: Run unittest suite (discoverable tests)
         run: |
+          export QC41_LIGHT_DISABLE_PING=1
           python3 -m unittest discover -s tests -v
 
       - name: Validate all JSON fixtures
