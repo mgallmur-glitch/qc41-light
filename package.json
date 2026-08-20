@@ -1,6 +1,6 @@
 {
   "name": "@mgallmur-glitch/qc41-light",
-  "version": "0.3.5",
+  "version": "0.3.6",
   "description": "QC 4.1 Light \u2014 evidence-first sales-call diagnosis. CLI, MCP, and eval harness.",
   "type": "module",
   "bin": {
